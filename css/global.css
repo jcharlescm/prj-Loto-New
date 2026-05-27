@@ -17,6 +17,11 @@ body {
   min-height: 100vh;
 }
 
+.img-emoji {
+  width: 20px;
+  height: 20px;
+}
+
 img {
   max-width: 100%;
   height: auto;
