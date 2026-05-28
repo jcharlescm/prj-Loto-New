@@ -4,7 +4,7 @@
     <br>    
     <table border="2" style="background-color: #87CEEB;">    
         <tr>
-            <td colspan="3">
+            <td colspan="3" align="center">
                 <center>
                     <b>TIPO:</b> <br>		
                     <select name="TIPO"> <br>
@@ -14,24 +14,31 @@
                     </select>
                 </center>
             </td>
-            <td colspan="3">
+            <td colspan="3" align="center">
                 <center>
-                    <b>CONCURSO: </b> <br>	
+                    <b>CONCURSO:</b> <br>	
                     <input type="text" size="6" maxlength="10" name="CONCNR">                    
                 </center>                
             </td>
-            <td colspan="3"> 
+            <td colspan="3" align="center"> 
                 <center>
                     <b>DATA: </b> <br>		
                     <input type="text" size="10" maxlength="15" name="DTCONC">	                    
                 </center>                               	
             </td>
         </tr>
+
         <tr>
             <td colspan="9">
-                <hr size="3" color="black"/>
+                <hr size="3" color="Green"/>
             </td>
         </tr>
+
+        <tr>				
+            <td colspan="9" align="center" nowrap>
+                <b>NÚMEROS ESCOLHIDOS </b>		
+            </td>
+        </tr>        
         <tr>
             <td align="center">
                 <b>01º</b>
@@ -61,16 +68,8 @@
                 <b>09º</b>
             </td>
         </tr>
-        <tr>
-            <td colspan="9">
-                <hr size="3" color="black"/>
-            </td>
-        </tr>
-        <tr>				
-            <td colspan="9" nowrap>
-                <b>NÚMEROS ESCOLHIDOS : </b>		
-            </td>
-        </tr>
+
+
         <tr>
             <td align="center">
                 <input type="text" size="1" maxlength="2" name="NE01" style="font-size:25px; font-weight:bold; width:34px;" onblur="tamanhoTexto(this.value, this.name);carregaNE01();soma();numero_escolhido(this.value);">	           
@@ -106,96 +105,96 @@
     <br> 
 
     <table> 
-        <tr>
+        <tr>   
             <td colspan="21">&nbsp;&nbsp;
-                <input type="button" name="nr01"  value="01" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr02"  value="02" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr03"  value="03" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr04"  value="04" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr05"  value="05" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr06"  value="06" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr07"  value="07" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr08"  value="08" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr09"  value="09" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr10"  value="10" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;&nbsp;               		    
+                <input type="button" name="nr01"  value="01" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr02"  value="02" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr03"  value="03" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr04"  value="04" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr05"  value="05" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr06"  value="06" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr07"  value="07" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr08"  value="08" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr09"  value="09" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr10"  value="10" class="imput-nr"/>&nbsp;&nbsp;               		    
             </td>
         </tr>		
         <tr>
             <td>&nbsp;&nbsp;
-                <input type="button" name="nr11"  value="11" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr12"  value="12" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr13"  value="13" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr14"  value="14" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr15"  value="15" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr16"  value="16" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr17"  value="17" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr18"  value="18" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr19"  value="19" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr20"  value="20" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;&nbsp;                    
+                <input type="button" name="nr11"  value="11" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr12"  value="12" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr13"  value="13" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr14"  value="14" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr15"  value="15" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr16"  value="16" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr17"  value="17" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr18"  value="18" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr19"  value="19" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr20"  value="20" class="imput-nr"/>&nbsp;&nbsp;                    
             </td>
         </tr>
         <tr>
             <td>&nbsp;&nbsp;
-                <input type="button" name="nr21"  value="21" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr22"  value="22" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr23"  value="23" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr24"  value="24" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr25"  value="25" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp; 
-                <input type="button" name="nr26"  value="26" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr27"  value="27" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr28"  value="28" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr29"  value="29" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr30"  value="30" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;&nbsp; 			                       		    
+                <input type="button" name="nr21"  value="21" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr22"  value="22" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr23"  value="23" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr24"  value="24" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr25"  value="25" class="imput-nr"/>&nbsp; 
+                <input type="button" name="nr26"  value="26" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr27"  value="27" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr28"  value="28" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr29"  value="29" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr30"  value="30" class="imput-nr"/>&nbsp;&nbsp; 			                       		    
             </td>
         </tr>
         <tr>
             <td>
                 &nbsp;&nbsp;
-                <input type="button" name="nr31"  value="31" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr32"  value="32" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr33"  value="33" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr34"  value="34" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr35"  value="35" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr36"  value="36" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr37"  value="37" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr38"  value="38" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr39"  value="39" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr40"  value="40" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;&nbsp;               		    
+                <input type="button" name="nr31"  value="31" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr32"  value="32" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr33"  value="33" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr34"  value="34" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr35"  value="35" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr36"  value="36" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr37"  value="37" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr38"  value="38" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr39"  value="39" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr40"  value="40" class="imput-nr"/>&nbsp;&nbsp;               		    
             </td>
         </tr>		
         <tr>
             <td>
                 &nbsp;&nbsp;
-                <input type="button" name="nr41"  value="41" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr42"  value="42" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr43"  value="43" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr44"  value="44" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr45"  value="45" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr46"  value="46" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr47"  value="47" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr48"  value="48" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr49"  value="49" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr50"  value="50" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;&nbsp;                    
+                <input type="button" name="nr41"  value="41" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr42"  value="42" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr43"  value="43" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr44"  value="44" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr45"  value="45" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr46"  value="46" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr47"  value="47" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr48"  value="48" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr49"  value="49" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr50"  value="50" class="imput-nr"/>&nbsp;&nbsp;                    
             </td>
         </tr>
         <tr>
             <td>
                 &nbsp;&nbsp;
-                <input type="button" name="nr51"  value="51" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr52"  value="52" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr53"  value="53" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr54"  value="54" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr55"  value="55" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp; 
-                <input type="button" name="nr56"  value="56" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr57"  value="57" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr58"  value="58" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr59"  value="59" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;
-                <input type="button" name="nr60"  value="60" style="color: #00000F; font-family: Comic Sans MS; font-weight: bold"/>&nbsp;&nbsp; 			                       		    
+                <input type="button" name="nr51"  value="51" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr52"  value="52" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr53"  value="53" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr54"  value="54" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr55"  value="55" class="imput-nr"/>&nbsp; 
+                <input type="button" name="nr56"  value="56" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr57"  value="57" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr58"  value="58" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr59"  value="59" class="imput-nr"/>&nbsp;
+                <input type="button" name="nr60"  value="60" class="imput-nr"/>&nbsp;&nbsp; 			                       		    
             </td>
         </tr>
     </table>
     
-    <br>    
+    <br>     
 
     <table border="2" bgcolor="#87CEEB"> 
         <tr>
@@ -203,22 +202,22 @@
                 &nbsp;	
             </td>	    				
             <td align="center">
-                <b>Nr 1 </b> 		
+                <b>1ªdz </b> 		
             </td>
             <td align="center">
-                <b>Nr 2 </b> 		
+                <b>2ªdz </b> 		
             </td>
             <td align="center">
-                <b>Nr 3 </b> 		
+                <b>3ªdz </b> 		
             </td>
             <td align="center">
-                <b>Nr 4 </b> 		
+                <b>4ªdz </b> 		
             </td>
             <td align="center">
-                <b>Nr 5 </b> 		
+                <b>5ªdz </b> 		
             </td>
             <td align="center">
-                <b>Nr 6 </b> 		
+                <b>6ªdz </b> 		
             </td>
             <td align="center" bgcolor="orange">
                 <b>SOMA </b> 		
@@ -231,22 +230,22 @@
                 <b>1º Jogo </b> 		
             </td>
             <td>
-                <input type="text" size="1" maxlength="2" name="JG11"  style="font-size:20px; font-weight:bold; width:35px;">	
+                <input type="text" size="1" maxlength="2" name="JG11" style="font-size:20px; font-weight:bold; width:35px;">	
             </td>
             <td>
-                <input type="text" size="1" maxlength="2" name="JG12"  style="font-size:20px; font-weight:bold; width:35px;">
+                <input type="text" size="1" maxlength="2" name="JG12" style="font-size:20px; font-weight:bold; width:35px;">
             </td>
             <td>
-                <input type="text" size="1" maxlength="2" name="JG13"  style="font-size:20px; font-weight:bold; width:35px;">   	
+                <input type="text" size="1" maxlength="2" name="JG13" style="font-size:20px; font-weight:bold; width:35px;">   	
             </td>
             <td>
-                <input type="text" size="1" maxlength="2" name="JG14"  style="font-size:20px; font-weight:bold; width:35px;">    	
+                <input type="text" size="1" maxlength="2" name="JG14" style="font-size:20px; font-weight:bold; width:35px;">    	
             </td>
             <td>
-                <input type="text" size="1" maxlength="2" name="JG15"  style="font-size:20px; font-weight:bold; width:35px;">   	
+                <input type="text" size="1" maxlength="2" name="JG15" style="font-size:20px; font-weight:bold; width:35px;">   	
             </td>
             <td>
-                <input type="text" size="1" maxlength="2" name="JG16"  style="font-size:20px; font-weight:bold; width:35px;">   	
+                <input type="text" size="1" maxlength="2" name="JG16" style="font-size:20px; font-weight:bold; width:35px;">   	
             </td>
             <td>
                 <input type="text" size="1" maxlength="2" name="SOMA01" style="font-size:20px; font-weight:bold; width:60px; background-color: orange;" value="0">   	
@@ -307,34 +306,36 @@
                 <input type="text" size="1" maxlength="2" name="SOMA03" style="font-size:20px; font-weight:bold; width:60px; background-color: orange;" value="0">
             </td>
 
-        </tr>	
+        </tr>		
+
         <tr>
             <td>
                 &nbsp;	
             </td>	    				
             <td align="center">
-                <b>Nr 1 </b> 		
+                <b>1ªdz </b> 		
             </td>
             <td align="center">
-                <b>Nr 2 </b> 		
+                <b>2ªdz </b> 		
             </td>
             <td align="center">
-                <b>Nr 3 </b> 		
+                <b>3ªdz </b> 		
             </td>
             <td align="center">
-                <b>Nr 4 </b> 		
+                <b>4ªdz </b> 		
             </td>
             <td align="center">
-                <b>Nr 5 </b> 		
+                <b>5ªdz </b> 		
             </td>
             <td align="center">
-                <b>Nr 6 </b> 		
+                <b>6ªdz </b> 		
             </td>
             <td align="center" bgcolor="orange">
                 <b>SOMA </b> 		
             </td>
             
-        </tr>            	
+        </tr>
+           	
     </table>  
 	
     <table>

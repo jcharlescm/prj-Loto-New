@@ -1,17 +1,4 @@
 
-  // ✅ CORRETO (Garante resposta em todos os cenários)
-  chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-    if (message.action === "buscar") {
-      apiCall()
-        .then(res => sendResponse({ dados: res }))
-        .catch(() => sendResponse({ dados: null })); // Garante o fechamento no erro
-      return true; 
-    }
-    // Se não for a ação "buscar", não retorna true e o canal fecha normalmente.
-  });
-  
-
-
 function mostraJogos(x) {
     var escreveJogos;      
 
@@ -204,195 +191,195 @@ function tamanhoTexto(textoNum, nomeComp) {
 // *********************************************************
 function numero_escolhido(nr) {
   if (1 == nr) {
-      document.frm.nr01.style.background = "#638cb5";
+      document.frm.nr01.style.background = "#3366FF";
   }
   if (2 == nr) {
-      document.frm.nr02.style.background = "#638cb5";
+      document.frm.nr02.style.background = "#3366FF";
   }
   if (3 == nr) {
-      document.frm.nr03.style.background = "#638cb5";
+      document.frm.nr03.style.background = "#3366FF";
   }
   if (4 == nr) {
-      document.frm.nr04.style.background = "#638cb5";
+      document.frm.nr04.style.background = "#3366FF";
   }
   if (5 == nr) {
-      document.frm.nr05.style.background = "#638cb5";
+      document.frm.nr05.style.background = "#3366FF";
   }
 
   if (6 == nr) {
-      document.frm.nr06.style.background = "#638cb5";
+      document.frm.nr06.style.background = "#3366FF";
   }
   if (7 == nr) {
-      document.frm.nr07.style.background = "#638cb5";
+      document.frm.nr07.style.background = "#3366FF";
   }
   if (8 == nr) {
-      document.frm.nr08.style.background = "#638cb5";
+      document.frm.nr08.style.background = "#3366FF";
   }
   if (9 == nr) {
-      document.frm.nr09.style.background = "#638cb5";
+      document.frm.nr09.style.background = "#3366FF";
   }
   if (10 == nr) {
-      document.frm.nr10.style.background = "#638cb5";
+      document.frm.nr10.style.background = "#3366FF";
   }
 
   if (11 == nr) {
-      document.frm.nr11.style.background = "#638cb5";
+      document.frm.nr11.style.background = "#3366FF";
   }
   if (12 == nr) {
-      document.frm.nr12.style.background = "#638cb5";
+      document.frm.nr12.style.background = "#3366FF";
   }
   if (13 == nr) {
-      document.frm.nr13.style.background = "#638cb5";
+      document.frm.nr13.style.background = "#3366FF";
   }
   if (14 == nr) {
-      document.frm.nr14.style.background = "#638cb5";
+      document.frm.nr14.style.background = "#3366FF";
   }
   if (15 == nr) {
-      document.frm.nr15.style.background = "#638cb5";
+      document.frm.nr15.style.background = "#3366FF";
   }
 
   if (16 == nr) {
-      document.frm.nr16.style.background = "#638cb5";
+      document.frm.nr16.style.background = "#3366FF";
   }
   if (17 == nr) {
-      document.frm.nr17.style.background = "#638cb5";
+      document.frm.nr17.style.background = "#3366FF";
   }
   if (18 == nr) {
-      document.frm.nr18.style.background = "#638cb5";
+      document.frm.nr18.style.background = "#3366FF";
   }
   if (19 == nr) {
-      document.frm.nr19.style.background = "#638cb5";
+      document.frm.nr19.style.background = "#3366FF";
   }
   if (20 == nr) {
-      document.frm.nr20.style.background = "#638cb5";
+      document.frm.nr20.style.background = "#3366FF";
   }
 
   if (21 == nr) {
-      document.frm.nr21.style.background = "#638cb5";
+      document.frm.nr21.style.background = "#3366FF";
   }
   if (22 == nr) {
-      document.frm.nr22.style.background = "#638cb5";
+      document.frm.nr22.style.background = "#3366FF";
   }
   if (23 == nr) {
-      document.frm.nr23.style.background = "#638cb5";
+      document.frm.nr23.style.background = "#3366FF";
   }
   if (24 == nr) {
-      document.frm.nr24.style.background = "#638cb5";
+      document.frm.nr24.style.background = "#3366FF";
   }
   if (25 == nr) {
-      document.frm.nr25.style.background = "#638cb5";
+      document.frm.nr25.style.background = "#3366FF";
   }
 
   if (26 == nr) {
-      document.frm.nr26.style.background = "#638cb5";
+      document.frm.nr26.style.background = "#3366FF";
   }
   if (27 == nr) {
-      document.frm.nr27.style.background = "#638cb5";
+      document.frm.nr27.style.background = "#3366FF";
   }
   if (28 == nr) {
-      document.frm.nr28.style.background = "#638cb5";
+      document.frm.nr28.style.background = "#3366FF";
   }
   if (29 == nr) {
-      document.frm.nr29.style.background = "#638cb5";
+      document.frm.nr29.style.background = "#3366FF";
   }
   if (30 == nr) {
-      document.frm.nr30.style.background = "#638cb5";
+      document.frm.nr30.style.background = "#3366FF";
   }
 
   if (31 == nr) {
-      document.frm.nr31.style.background = "#638cb5";
+      document.frm.nr31.style.background = "#3366FF";
   }
   if (32 == nr) {
-      document.frm.nr32.style.background = "#638cb5";
+      document.frm.nr32.style.background = "#3366FF";
   }
   if (33 == nr) {
-      document.frm.nr33.style.background = "#638cb5";
+      document.frm.nr33.style.background = "#3366FF";
   }
   if (34 == nr) {
-      document.frm.nr34.style.background = "#638cb5";
+      document.frm.nr34.style.background = "#3366FF";
   }
   if (35 == nr) {
-      document.frm.nr35.style.background = "#638cb5";
+      document.frm.nr35.style.background = "#3366FF";
   }
 
   if (36 == nr) {
-      document.frm.nr36.style.background = "#638cb5";
+      document.frm.nr36.style.background = "#3366FF";
   }
   if (37 == nr) {
-      document.frm.nr37.style.background = "#638cb5";
+      document.frm.nr37.style.background = "#3366FF";
   }
   if (38 == nr) {
-      document.frm.nr38.style.background = "#638cb5";
+      document.frm.nr38.style.background = "#3366FF";
   }
   if (39 == nr) {
-      document.frm.nr39.style.background = "#638cb5";
+      document.frm.nr39.style.background = "#3366FF";
   }
   if (40 == nr) {
-      document.frm.nr40.style.background = "#638cb5";
+      document.frm.nr40.style.background = "#3366FF";
   }
 
   if (41 == nr) {
-      document.frm.nr41.style.background = "#638cb5";
+      document.frm.nr41.style.background = "#3366FF";
   }
   if (42 == nr) {
-      document.frm.nr42.style.background = "#638cb5";
+      document.frm.nr42.style.background = "#3366FF";
   }
   if (43 == nr) {
-      document.frm.nr43.style.background = "#638cb5";
+      document.frm.nr43.style.background = "#3366FF";
   }
   if (44 == nr) {
-      document.frm.nr44.style.background = "#638cb5";
+      document.frm.nr44.style.background = "#3366FF";
   }
   if (45 == nr) {
-      document.frm.nr45.style.background = "#638cb5";
+      document.frm.nr45.style.background = "#3366FF";
   }
 
   if (46 == nr) {
-      document.frm.nr46.style.background = "#638cb5";
+      document.frm.nr46.style.background = "#3366FF";
   }
   if (47 == nr) {
-      document.frm.nr47.style.background = "#638cb5";
+      document.frm.nr47.style.background = "#3366FF";
   }
   if (48 == nr) {
-      document.frm.nr48.style.background = "#638cb5";
+      document.frm.nr48.style.background = "#3366FF";
   }
   if (49 == nr) {
-      document.frm.nr49.style.background = "#638cb5";
+      document.frm.nr49.style.background = "#3366FF";
   }
   if (50 == nr) {
-      document.frm.nr50.style.background = "#638cb5";
+      document.frm.nr50.style.background = "#3366FF";
   }
 
   if (51 == nr) {
-      document.frm.nr51.style.background = "#638cb5";
+      document.frm.nr51.style.background = "#3366FF";
   }
   if (52 == nr) {
-      document.frm.nr52.style.background = "#638cb5";
+      document.frm.nr52.style.background = "#3366FF";
   }
   if (53 == nr) {
-      document.frm.nr53.style.background = "#638cb5";
+      document.frm.nr53.style.background = "#3366FF";
   }
   if (54 == nr) {
-      document.frm.nr54.style.background = "#638cb5";
+      document.frm.nr54.style.background = "#3366FF";
   }
   if (55 == nr) {
-      document.frm.nr55.style.background = "#638cb5";
+      document.frm.nr55.style.background = "#3366FF";
   }
 
   if (56 == nr) {
-      document.frm.nr56.style.background = "#638cb5";
+      document.frm.nr56.style.background = "#3366FF";
   }
   if (57 == nr) {
-      document.frm.nr57.style.background = "#638cb5";
+      document.frm.nr57.style.background = "#3366FF";
   }
   if (58 == nr) {
-      document.frm.nr58.style.background = "#638cb5";
+      document.frm.nr58.style.background = "#3366FF";
   }
   if (59 == nr) {
-      document.frm.nr59.style.background = "#638cb5";
+      document.frm.nr59.style.background = "#3366FF";
   }
   if (60 == nr) {
-      document.frm.nr60.style.background = "#638cb5";
+      document.frm.nr60.style.background = "#3366FF";
   }
 }         
 
