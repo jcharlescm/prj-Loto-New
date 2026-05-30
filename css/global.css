@@ -102,3 +102,32 @@ footer {
   overflow: auto;
 }
 
+
+input[type="button"] {
+
+  background-color: gray;
+
+  color: white;
+
+  border: none;
+
+  padding: 5px 5px;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+}
+
+/* Quando o mouse passar por cima */
+input[type="button"]:hover {
+  background-color: rgb(77, 77, 235);
+}
+
+.imput-nr {
+  padding: 3px; 
+  color: #00000F;
+  font-family: Comic Sans MS; 
+  font-weight: bold;
+}
+
+
