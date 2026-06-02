@@ -130,4 +130,12 @@ input[type="button"]:hover {
   font-weight: bold;
 }
 
+.imput-mostrar { 
+    font-size:20px; 
+    color: #00000F;
+    font-family: Comic Sans MS; 
+    font-weight:bold; 
+    width:35px;
+}
+
 
