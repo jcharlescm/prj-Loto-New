@@ -47,7 +47,7 @@
             var total02;
             var total03;
             var total04;
-
+var total04;
             total01 = parseFloat(0 + document.frm.JG0101.value) + parseFloat(0 + document.frm.JG0102.value) + parseFloat(0 + document.frm.JG0103.value) + parseFloat(0 + document.frm.JG0104.value) + parseFloat(0 + document.frm.JG0105.value) + parseFloat(0 + document.frm.JG0106.value) + parseFloat(0 + document.frm.JG0107.value) + parseFloat(0 + document.frm.JG0108.value) + parseFloat(0 + document.frm.JG0109.value) + parseFloat(0 + document.frm.JG0110.value) + parseFloat(0 + document.frm.JG0111.value) + parseFloat(0 + document.frm.JG0112.value) + parseFloat(0 + document.frm.JG0113.value) + parseFloat(0 + document.frm.JG0114.value) + parseFloat(0 + document.frm.JG0115.value);
 
             total02 = parseFloat(0 + document.frm.JG0201.value) + parseFloat(0 + document.frm.JG0202.value) + parseFloat(0 + document.frm.JG0203.value) + parseFloat(0 + document.frm.JG0204.value) + parseFloat(0 + document.frm.JG0205.value) + parseFloat(0 + document.frm.JG0206.value) + parseFloat(0 + document.frm.JG0207.value) + parseFloat(0 + document.frm.JG0208.value) + parseFloat(0 + document.frm.JG0209.value) + parseFloat(0 + document.frm.JG0210.value) + parseFloat(0 + document.frm.JG0211.value) + parseFloat(0 + document.frm.JG0212.value) + parseFloat(0 + document.frm.JG0213.value) + parseFloat(0 + document.frm.JG0214.value) + parseFloat(0 + document.frm.JG0215.value);
@@ -55,7 +55,9 @@
             total03 = parseFloat(0 + document.frm.JG0301.value) + parseFloat(0 + document.frm.JG0302.value) + parseFloat(0 + document.frm.JG0303.value) + parseFloat(0 + document.frm.JG0304.value) + parseFloat(0 + document.frm.JG0302.value) + parseFloat(0 + document.frm.JG0306.value) + parseFloat(0 + document.frm.JG0307.value) + parseFloat(0 + document.frm.JG0308.value) + parseFloat(0 + document.frm.JG0309.value) + parseFloat(0 + document.frm.JG0310.value) + parseFloat(0 + document.frm.JG0311.value) + parseFloat(0 + document.frm.JG0312.value) + parseFloat(0 + document.frm.JG0313.value) + parseFloat(0 + document.frm.JG0314.value) + parseFloat(0 + document.frm.JG0315.value);
                         
             total04 = parseFloat(0 + document.frm.JG0401.value) + parseFloat(0 + document.frm.JG0402.value) + parseFloat(0 + document.frm.JG0403.value) + parseFloat(0 + document.frm.JG0404.value) + parseFloat(0 + document.frm.JG0405.value) + parseFloat(0 + document.frm.JG0406.value) + parseFloat(0 + document.frm.JG0407.value) + parseFloat(0 + document.frm.JG0408.value) + parseFloat(0 + document.frm.JG0409.value) + parseFloat(0 + document.frm.JG0410.value) + parseFloat(0 + document.frm.JG0411.value) + parseFloat(0 + document.frm.JG0412.value) + parseFloat(0 + document.frm.JG0413.value) + parseFloat(0 + document.frm.JG0414.value) + parseFloat(0 + document.frm.JG0415.value);
-                                           
+
+            total05 = parseFloat(0 + document.frm.JG0501.value) + parseFloat(0 + document.frm.JG0502.value) + parseFloat(0 + document.frm.JG0503.value) + parseFloat(0 + document.frm.JG0504.value) + parseFloat(0 + document.frm.JG0505.value) + parseFloat(0 + document.frm.JG0506.value) + parseFloat(0 + document.frm.JG0507.value) + parseFloat(0 + document.frm.JG0508.value) + parseFloat(0 + document.frm.JG0509.value) + parseFloat(0 + document.frm.JG0510.value) + parseFloat(0 + document.frm.JG0511.value) + parseFloat(0 + document.frm.JG0512.value) + parseFloat(0 + document.frm.JG0513.value) + parseFloat(0 + document.frm.JG0514.value) + parseFloat(0 + document.frm.JG0515.value);
+            
             document.frm.SOMA01.value = total01;
             document.frm.SOMA02.value = total02;
             document.frm.SOMA03.value = total03;
@@ -72,7 +74,7 @@
             document.frm.JG0204.value = document.frm.NE01.value;
             document.frm.JG0304.value = document.frm.NE01.value;
             document.frm.JG0404.value = document.frm.NE01.value;
-
+            document.frm.JG0504.value = document.frm.NE01.value;
         }
 
         // *********************************************************
@@ -82,7 +84,8 @@
             document.frm.JG0108.value = document.frm.NE02.value;
             document.frm.JG0208.value = document.frm.NE02.value;
             document.frm.JG0308.value = document.frm.NE02.value;
-            document.frm.JG0408.value = document.frm.NE02.value;			
+            document.frm.JG0408.value = document.frm.NE02.value;
+            document.frm.JG0508.value = document.frm.NE02.value;
         }
 
         // *********************************************************
@@ -93,6 +96,7 @@
             document.frm.JG0212.value = document.frm.NE03.value;
             document.frm.JG0312.value = document.frm.NE03.value;
             document.frm.JG0412.value = document.frm.NE03.value;
+            document.frm.JG0512.value = document.frm.NE03.value;
         }
 
         // *********************************************************
@@ -102,6 +106,7 @@
             document.frm.JG0101.value = document.frm.NE04.value;
             document.frm.JG0303.value = document.frm.NE04.value;
             document.frm.JG0402.value = document.frm.NE04.value;
+            document.frm.JG0511.value = document.frm.NE04.value;
         }
 
         // *********************************************************
@@ -111,6 +116,7 @@
             document.frm.JG0102.value = document.frm.NE05.value;
             document.frm.JG0201.value = document.frm.NE05.value;
             document.frm.JG0403.value = document.frm.NE05.value;
+            document.frm.JG0501.value = document.frm.NE05.value;
         }
 
         // *********************************************************
@@ -129,6 +135,7 @@
             document.frm.JG0203.value = document.frm.NE07.value;
             document.frm.JG0302.value = document.frm.NE07.value;
             document.frm.JG0401.value = document.frm.NE07.value;
+            document.frm.JG0506.value = document.frm.NE07.value;
 		}
 
         // *********************************************************
@@ -147,6 +154,7 @@
             document.frm.JG0106.value = document.frm.NE09.value;
             document.frm.JG0205.value = document.frm.NE09.value;
             document.frm.JG0407.value = document.frm.NE09.value;
+            document.frm.JG0502.value = document.frm.NE09.value;
         }
 
         // *********************************************************
@@ -156,7 +164,7 @@
             document.frm.JG0107.value = document.frm.NE10.value;
             document.frm.JG0206.value = document.frm.NE10.value;
             document.frm.JG0305.value = document.frm.NE10.value;
-
+            document.frm.JG0513.value = document.frm.NE10.value;
         }
 
         // *********************************************************
@@ -166,6 +174,7 @@
             document.frm.JG0207.value = document.frm.NE11.value;
             document.frm.JG0306.value = document.frm.NE11.value;
             document.frm.JG0405.value = document.frm.NE11.value;
+            document.frm.JG0507.value = document.frm.NE11.value;
         }
 
         // *********************************************************
@@ -175,6 +184,7 @@
             document.frm.JG0109.value = document.frm.NE12.value;
             document.frm.JG0311.value = document.frm.NE12.value;
             document.frm.JG0410.value = document.frm.NE12.value;
+            document.frm.JG0514.value = document.frm.NE12.value;
         }
 
         // *********************************************************
@@ -184,6 +194,7 @@
             document.frm.JG0110.value = document.frm.NE13.value;
             document.frm.JG0209.value = document.frm.NE13.value;
             document.frm.JG0411.value = document.frm.NE13.value;
+            document.frm.JG0503.value = document.frm.NE13.value;
         }
 
         // *********************************************************
@@ -202,6 +213,7 @@
             document.frm.JG0211.value = document.frm.NE15.value;
             document.frm.JG0310.value = document.frm.NE15.value;
             document.frm.JG0409.value = document.frm.NE15.value;
+            document.frm.JG0509.value = document.frm.NE15.value;
         }
 
         // *********************************************************
@@ -219,7 +231,8 @@
         function carregaNE17() {
             document.frm.JG0114.value = document.frm.NE17.value;            
 			document.frm.JG0213.value = document.frm.NE17.value;
-            document.frm.JG0415.value = document.frm.NE17.value;            
+            document.frm.JG0415.value = document.frm.NE17.value;
+            document.frm.JG0505.value = document.frm.NE17.value;             
         }
                 
 
@@ -229,7 +242,8 @@
         function carregaNE18() {
             document.frm.JG0115.value = document.frm.NE18.value;            
 			document.frm.JG0214.value = document.frm.NE18.value;
-            document.frm.JG0313.value = document.frm.NE18.value;            
+            document.frm.JG0313.value = document.frm.NE18.value;  
+            document.frm.JG0515.value = document.frm.NE18.value;            
         }
 
         // *********************************************************
@@ -239,6 +253,7 @@
             document.frm.JG0215.value = document.frm.NE19.value;
             document.frm.JG0314.value = document.frm.NE19.value;
             document.frm.JG0413.value = document.frm.NE19.value;
+            document.frm.JG0510.value = document.frm.NE19.value;
         }
 
 
