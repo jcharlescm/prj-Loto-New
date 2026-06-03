@@ -131,11 +131,24 @@ input[type="button"]:hover {
 }
 
 .imput-mostrar { 
+    text-align: center;
     font-size:20px; 
     color: #00000F;
     font-family: Comic Sans MS; 
     font-weight:bold; 
-    width:35px;
+    height:28px;
+    width:30px;
+}
+
+.imput-mostrar-soma { 
+    text-align: center;
+    font-size:20px; 
+    color: #00000F;
+    font-family: Comic Sans MS; 
+    font-weight:bold; 
+    height:28px;
+    width:50px;
+    background-color: orange; 
 }
 
 
