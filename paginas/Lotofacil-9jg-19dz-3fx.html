@@ -1,0 +1,907 @@
+<form name="frm">
+  <center>
+      <br>
+   
+      <table border="2" bgcolor="#87CEEB"> 
+          <tr>
+              <td colspan="25" align="center">
+              <b>9 JOGOS DA LOTOFÁCIL - OBJETIVANDO O ACERTO DE 12, 13 e 14 PONTOS <br> ENTRE 19 NÚMEROS COMBINADOS</b> 		
+          </td>		    		    
+          </tr>
+        <tr>
+          <td colspan="25">
+                  <hr size="3" color="blue"/>
+          </td>
+        </tr>    
+          <tr>
+              <td colspan="9" align="center">
+              <b>TIPO DE JOGO </b> 		
+                  <br>
+                  <select name="TIPO">
+                    <option value="0"> LOTOFÁCIL </option>
+                  </select>
+              </td>
+        <td colspan="7" align="center">
+              <b>CONCURSO NR.  </b> 		
+                  <br>
+              <input type="text" size="15" maxlength="15" name="CONCNR">
+          </td>
+        <td colspan="9" align="center"> 
+              <b>DATA CONCURSO </b> 
+          <br>		
+              <input type="text" size="20" maxlength="20" name="DTCONC">	
+          </td>
+          </tr> 
+        <tr>
+          <td colspan="25">
+                  <hr size="3" color="black"/>
+          </td>
+        </tr>
+          <tr>						
+          <td align="center" colspan="3" bgcolor="green">
+          <b> DZ Fixas </b>
+          </td>
+        
+          <td align="center" colspan="16">
+          <b> ESCOLHA 16 DEZENAS DE 1 A 25 - EM QUALQUER ORDEM </b>
+          </td>
+  
+          <td align="center" colspan="6" bgcolor="red">
+          <b> Não Serão Sorteados </b>
+          </td>
+      </tr>
+        <tr>				
+                                
+          <td align="center" bgcolor="green">
+              <b>01º</b>
+          </td>
+          <td align="center" bgcolor="green">
+              <b>02º</b>
+          </td>	    
+          <td align="center" bgcolor="green">
+              <b>03º</b>
+          </td>
+          <td align="center"> 
+              <b>04º</b>
+          </td>
+          <td align="center">
+              <b>05º</b>
+          </td>
+          <td align="center">
+              <b>06º</b>
+          </td>		    
+          <td align="center">
+              <b>07º</b>
+          </td>
+          <td align="center">
+              <b>08º</b>
+          </td>		    
+          <td align="center">
+              <b>09º</b>
+          </td>
+          <td align="center">
+              <b>10º</b>
+          </td>
+          <td align="center">
+              <b>11º</b>
+          </td>
+          <td align="center">
+              <b>12º</b>
+          </td>	    
+          <td align="center"> 
+              <b>13º</b>
+          </td>
+          <td align="center">
+              <b>14º</b>
+          </td>
+          <td align="center">
+              <b>15º</b>
+          </td>
+          <td align="center">
+              <b>16º</b>
+          </td>		    
+          <td align="center">
+              <b>17º</b>
+          </td>
+          <td align="center">
+              <b>18º</b>
+          </td>		    
+          <td align="center">
+              <b>19º</b>
+          </td>
+  
+          <td align="center" bgcolor="red">
+              <b>20º</b>
+          </td>
+          <td align="center" bgcolor="red">
+              <b>21º</b>
+          </td>	    
+          <td align="center" bgcolor="red">
+              <b>22º</b>
+          </td>
+          <td align="center" bgcolor="red">
+              <b>23º</b>
+          </td>	    
+          <td align="center" bgcolor="red">
+              <b>24º</b>
+          </td>
+          <td align="center" bgcolor="red">
+              <b>25º</b>
+          </td>		
+        </tr> 
+        <tr>										
+      
+          <td>
+              <input type="text" size="1" maxlength="2" name="NE01" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);carregaNE01();numero_escolhido(this.value, 2);soma();">	
+          </td>
+          <td>
+              <input type="text" size="3" maxlength="2" name="NE02" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);carregaNE02();numero_escolhido(this.value, 2);soma();">	
+          </td>
+          <td>
+              <input type="text" size="3" maxlength="2" name="NE03" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);carregaNE03();numero_escolhido(this.value, 2);soma();">	
+          </td>
+          <td>
+              <input type="text" size="3" maxlength="2" name="NE04" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);carregaNE04();numero_escolhido(this.value, 0);soma();">	
+          </td>
+          <td>
+              <input type="text" size="3" maxlength="2" name="NE05" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);carregaNE05();numero_escolhido(this.value, 0);soma();">	
+          </td>
+          <td>
+              <input type="text" size="3" maxlength="2" name="NE06" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);carregaNE06();numero_escolhido(this.value, 0);soma();">	
+          </td>
+          <td>
+              <input type="text" size="3" maxlength="2" name="NE07" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);carregaNE07();numero_escolhido(this.value, 0);soma();">	
+          </td>
+          <td>
+              <input type="text" size="3" maxlength="2" name="NE08" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);carregaNE08();numero_escolhido(this.value, 0);soma();">	
+          </td>
+          <td>
+              <input type="text" size="3" maxlength="2" name="NE09" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);carregaNE09();numero_escolhido(this.value, 0);soma();">	
+          </td>
+          <td>
+              <input type="text" size="3" maxlength="2" name="NE10" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);carregaNE10();numero_escolhido(this.value, 0);soma();">	
+          </td>
+          <td>
+              <input type="text" size="3" maxlength="2" name="NE11" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);carregaNE11();numero_escolhido(this.value, 0);soma();">	
+          </td>
+          <td>
+              <input type="text" size="3" maxlength="2" name="NE12" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);carregaNE12();numero_escolhido(this.value, 0);soma();">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="NE13" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);carregaNE13();numero_escolhido(this.value, 0);soma();">	
+          </td>
+          <td>
+              <input type="text" size="3" maxlength="2" name="NE14" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);carregaNE14();numero_escolhido(this.value, 0);soma();">	
+          </td>
+          <td>
+              <input type="text" size="3" maxlength="2" name="NE15" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);carregaNE15();numero_escolhido(this.value, 0);soma();">	
+          </td>
+          <td>
+              <input type="text" size="3" maxlength="2" name="NE16" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);carregaNE16();numero_escolhido(this.value, 0);soma();">	
+          </td>
+          <td>
+              <input type="text" size="3" maxlength="2" name="NE17" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);carregaNE17();numero_escolhido(this.value, 0);soma();">	
+          </td>
+          <td>
+              <input type="text" size="3" maxlength="2" name="NE18" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);carregaNE18();numero_escolhido(this.value, 0);soma();">	 
+          </td>
+          <td>
+              <input type="text" size="3" maxlength="2" name="NE19" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);carregaNE19();numero_escolhido(this.value, 0);soma();">	
+          </td>
+  
+  
+          <td>
+              <input type="text" size="3" maxlength="2" name="NE20" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name); numero_escolhido(this.value, 1);">	
+          </td>
+          <td>
+              <input type="text" size="3" maxlength="2" name="NE21" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);numero_escolhido(this.value, 1);">	
+          </td>            
+          <td>
+              <input type="text" size="1" maxlength="2" name="NE22" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);numero_escolhido(this.value, 1);">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="NE23" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);numero_escolhido(this.value, 1);">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="NE24" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);numero_escolhido(this.value, 1);">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="NE25" class="imput-mostrar" onblur="tamanhoTexto(this.value, this.name);numero_escolhido(this.value, 1);">	
+          </td>				
+      </tr>
+    </table>
+    
+    <br>
+  
+      <table>
+        <tr>
+          <td colspan="5">&nbsp;&nbsp;
+                  <input type="button" name="nr01"  value="01" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr02"  value="02" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr03"  value="03" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr04"  value="04" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr05"  value="05" class="imput-nr"/>&nbsp;
+              </td>
+        </tr>		
+        <tr>
+          <td colspan="5">&nbsp;&nbsp;
+                  <input type="button" name="nr06"  value="06" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr07"  value="07" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr08"  value="08" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr09"  value="09" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr10"  value="10" class="imput-nr"/>&nbsp;
+              </td>
+        </tr>		
+        <tr>
+          <td colspan="5">&nbsp;&nbsp;
+                  <input type="button" name="nr11"  value="11" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr12"  value="12" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr13"  value="13" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr14"  value="14" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr15"  value="15" class="imput-nr"/>&nbsp;
+              </td>
+        </tr>		
+        <tr>
+          <td colspan="5">&nbsp;&nbsp;
+                  <input type="button" name="nr16"  value="16" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr17"  value="17" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr18"  value="18" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr19"  value="19" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr20"  value="20" class="imput-nr"/>&nbsp;                    
+              </td>
+        </tr>		
+         <tr>
+          <td colspan="5">&nbsp;&nbsp;
+                  <input type="button" name="nr21"  value="21" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr22"  value="22" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr23"  value="23" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr24"  value="24" class="imput-nr"/>&nbsp;
+                  <input type="button" name="nr25"  value="25" class="imput-nr"/>                		    
+              </td>
+        </tr>		
+      </table>
+      
+      <br> 
+      <table border="2" bgcolor="#87CEEB"> 
+        <tr>
+          <td rowspan="">
+              &nbsp;	
+          </td>	    				
+          <td align="center">
+              <b>01º  </b> 		
+          </td>
+          <td align="center">
+              <b>02º </b> 		
+          </td>
+          <td align="center">
+              <b>03º </b> 		
+          </td>	    
+          <td align="center">
+              <b>04º  </b> 		
+          </td>
+          <td align="center">
+              <b>05º </b> 		
+          </td>
+          <td align="center">
+              <b>06º  </b> 		
+          </td>		        
+          <td align="center">
+              <b>07º </b> 		
+          </td>
+          <td align="center">
+              <b>08º </b> 		
+          </td>
+          <td align="center">
+              <b>09º </b> 		
+          </td>	    
+          <td align="center">
+              <b>10º </b> 		
+          </td>
+          <td align="center">
+              <b>11º </b> 		
+          </td>
+          <td align="center">
+              <b>12º </b> 		
+          </td>
+          <td align="center">
+              <b>13º  </b> 		
+          </td>
+          <td align="center">
+              <b>14º </b> 		
+          </td>
+          <td align="center">
+              <b>15º </b> 		
+          </td>	
+          <td align="center" bgcolor="orange">
+              <b>SOMA</b> 		
+          </td>                    
+        </tr>
+  
+        <tr>	    			
+          <td align="center">
+              <b>Jogo 01 </b> 		
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0101" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0102" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0103" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0104" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0105" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0106" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0107" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0108" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0109" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0110" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0111" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0112" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0113" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0114" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0115" class="imput-mostrar">	
+          </td>	
+          <td bgcolor="orange">
+              <input type="text" size="1" maxlength="2" name="SOMA01" class="imput-mostrar-soma" value="0">	
+          </td>            	    		    
+      </tr>	
+        <tr>	    			
+          <td align="center">
+              <b>Jogo 02 </b> 		
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0201" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0202" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0203" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0204" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0205" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0206" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0207" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0208" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0209" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0210" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0211" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0212" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0213" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0214" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0215" class="imput-mostrar">	
+          </td>	
+          <td bgcolor="orange">
+              <input type="text" size="1" maxlength="2" name="SOMA02" class="imput-mostrar-soma" value="0">	
+          </td>              	    		    
+      </tr>			
+        <tr>	    			
+          <td align="center">
+              <b>Jogo 03 </b> 		
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0301" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0302" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0303" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0304" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0305" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0306" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0307" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0308" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0309" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0310" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0311" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0312" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0313" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0314" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0315" class="imput-mostrar">	
+          </td>		
+          <td bgcolor="orange">
+              <input type="text" size="1" maxlength="2" name="SOMA03" class="imput-mostrar-soma" value="0">	
+          </td>                  		    
+      </tr>			
+        <tr>	    			
+          <td align="center">
+              <b>Jogo 04 </b> 		
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0401" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0402" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0403" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0404" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0405" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0406" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0407" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0408" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0409" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0410" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0411" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0412" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0413" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0414" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0415" class="imput-mostrar">	
+          </td>	
+          <td bgcolor="orange">
+              <input type="text" size="1" maxlength="2" name="SOMA04" class="imput-mostrar-soma" value="0">	
+          </td>              	    		    
+      </tr>			
+  
+        <tr>	    			
+          <td align="center">
+              <b>Jogo 05 </b> 		
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0501" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0502" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0503" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0504" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0505" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0506" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0507" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0508" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0509" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0510" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0511" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0512" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0513" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0514" class="imput-mostrar">	
+          </td>
+          <td>
+              <input type="text" size="1" maxlength="2" name="JG0515" class="imput-mostrar">	
+          </td>	
+          <td>
+              <input type="text" size="1" maxlength="2" name="SOMA05" class="imput-mostrar-soma" value="0">	
+          </td>              	    		    
+      </tr>			
+  
+	    <tr>	    			
+		    <td align="center">
+		        <b>Jogo 06 </b> 		
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0601" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0602" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0603" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0604" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0605" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0606" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0607" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0608" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0609" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0610" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0611" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0612" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0613" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0614" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0615" class="imput-mostrar">	
+		    </td>	
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="SOMA06" class="imput-mostrar-soma" value="0">	
+		    </td>              	    		    
+		</tr>			
+
+
+	    <tr>	    			
+		    <td align="center">
+		        <b>Jogo 07 </b> 		
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0701" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0702" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0703" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0704" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0705" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0706" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0707" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0708" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0709" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0710" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0711" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0712" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0713" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0714" class="imput-mostrar">	
+		    </td>
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="JG0715" class="imput-mostrar">	
+		    </td>	
+		    <td>
+		        <input type="text" size="1" maxlength="2" name="SOMA07" class="imput-mostrar-soma" value="0">	
+		    </td>              	    		    
+		</tr>
+	
+
+		<tr>	    			
+			<td align="center">
+				<b>Jogo 08 </b> 		
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0801" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0802" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0803" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0804" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0805" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0806" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0807" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0808" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0809" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0810" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0811" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0812" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0813" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0814" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0815" class="imput-mostrar">	
+			</td>	
+			<td>
+				<input type="text" size="1" maxlength="2" name="SOMA08" class="imput-mostrar-soma" value="0">	
+			</td>              	    		    
+		</tr>
+
+
+		<tr>	    			
+			<td align="center">
+				<b>Jogo 09 </b> 		
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0901" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0902" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0903" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0904" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0905" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0906" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0907" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0908" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0909" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0910" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0911" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0912" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0913" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0914" class="imput-mostrar">	
+			</td>
+			<td>
+				<input type="text" size="1" maxlength="2" name="JG0915" class="imput-mostrar">	
+			</td>	
+			<td>
+				<input type="text" size="1" maxlength="2" name="SOMA09" class="imput-mostrar-soma" value="0">	
+			</td>              	    		    
+		</tr>
+
+  
+        <tr>
+          <td rowspan="">
+              &nbsp;	
+          </td>	    				
+          <td align="center">
+              <b>01º </b> 		
+          </td>
+          <td align="center">
+              <b>02º</b> 		
+          </td>
+          <td align="center">
+              <b>03º</b> 		
+          </td>	    
+          <td align="center">
+              <b>04º </b> 		
+          </td>
+          <td align="center">
+              <b>05º </b> 		
+          </td>
+          <td align="center">
+              <b>06º </b> 		
+          </td>		        
+          <td align="center">
+              <b>07º</b> 		
+          </td>
+          <td align="center">
+              <b>08º </b> 		
+          </td>
+          <td align="center">
+              <b>09º </b> 		
+          </td>	    
+          <td align="center">
+              <b>10º </b> 		
+          </td>
+          <td align="center">
+              <b>11º </b> 		
+          </td>
+          <td align="center">
+              <b>12º </b> 		
+          </td>
+          <td align="center">
+              <b>13º</b> 		
+          </td>
+          <td align="center">
+              <b>14º </b> 		
+          </td>
+          <td align="center">
+              <b>15º </b> 		
+          </td>	
+          <td align="center" bgcolor="orange">
+              <b>SOMA</b> 		
+          </td>                   
+        </tr>
+              
+      </table>  
+  
+    <br>
+  
+    <table>
+      <tr>
+        <td align="center">
+            <input id="myBtn" type="button" name="ordenar"  value=" - Ordenar Jogos + "  style="background-color: green; font-size: 25px; border-radius: 10px;"  onclick="ordenarArray()"/>&nbsp;
+        </td>	
+      </tr>	 
+    </table>
+  
+    <!-- The Modal -->
+    <div id="myModal" class="modal" style="background-color: darkorange;">  
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times; </span>
+        <p id="ordem"></p>
+      </div>
+      <br><br>
+    </div> 
+    
+    <table border="2" bgcolor="#D1EEEE" align="center"> 
+      <tr>	
+        <td>	
+          <div align="center">
+            <b> -- SOMA DAS DEZENAS -- </b> <br>
+            <b>	181 |--| 195 === 31% </b> <br>
+            <b> 196 |--| 210 === 28% </b> <br>
+            <b>	211 |--| 225 === 17% </b> <br>
+            <b>	166 |--| 180 === 15% </b> <br>
+          </div> 							
+        </td>
+      </tr> 
+    </table> 
+  
+    <br>
+    <b>OBS.: ESTE JOGO FOI SISTEMATIZADO, PENSADO E ELABORADO POR JOSÉ CHARLES. </b>
+    <br> 
+    <b>Atenção: trata-se de uma estratégia, não uma garantia.</b>
+      
+    
+  </center> 
+  </form>   
+  
+  
+  
