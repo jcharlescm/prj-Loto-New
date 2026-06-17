@@ -452,7 +452,7 @@ function carregaNE18() {
   document.frm.JG0512.value = document.frm.NE18.value;
   document.frm.JG0611.value = document.frm.NE18.value;
   document.frm.JG0713.value = document.frm.NE18.value;
-  document.frm.JG0825.value = document.frm.NE18.value;
+  document.frm.JG0815.value = document.frm.NE18.value;
   document.frm.JG0912.value = document.frm.NE18.value;
 }
 
