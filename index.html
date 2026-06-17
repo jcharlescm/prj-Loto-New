@@ -1,164 +1,245 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<!-- $ python -m http.server       -->
-<!--  http://127.0.0.1:8000/       -->
-<!-- http://localhost:8000/ -->    
-<head>
-    <meta charset="UTF-8">
+  <!-- $ python -m http.server       -->
+  <!--  http://127.0.0.1:8000/       -->
+  <!-- http://localhost:8000/ -->
+  <head>
+    <meta charset="UTF-8" />
 
     <title>Esquemas Lotéricos</title>
 
     <!-- CSS global -->
-    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/global.css" />
 
     <!-- CSS dinâmico -->
-    <link id="pagina-css" rel="stylesheet">
-</head>
-<body>
+    <link id="pagina-css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>ESQUEMAS DE LOTERIAS + J2CM</h1>
+    </header>
 
-<header>
-    <h1>ESQUEMAS DE LOTERIAS + J2CM</h1>
-</header>
-
-<div class="container">
-
-    <aside class="menu">
-
+    <div class="container">
+      <aside class="menu">
         <ul>
-            <img src="images/megasena.JPG" alt="Mega-Sena" title="MegaSena">
-            <li>
-            
-                <a href="#"
-                   onclick="carregarPagina(
+          <img src="images/megasena.JPG" alt="Mega-Sena" title="MegaSena" />
+          <li>
+            <a
+              href="#"
+              onclick="carregarPagina(
                         'paginas/Mega-03jg-09dz.html',
                         'css/Mega-03jg-09dz.css',
                         'js/Mega-03jg-09dz.js'
-                   )">
-                   <img src="images/emoji-cara-dinheiro.png" width="20px" height="20px"> 
-                    03 jogos + 09 dezenas 
-                </a>
-            </li>
+                   )"
+            >
+              <img
+                src="images/emoji-cara-dinheiro.png"
+                width="20px"
+                height="20px"
+              />
+              03 jogos + 09 dezenas
+            </a>
+          </li>
 
-            <li>
-            
-                <a href="#"
-                   onclick="carregarPagina(
+          <li>
+            <a
+              href="#"
+              onclick="carregarPagina(
                         'paginas/Mega-06jg-12dz.html',
                         'css/Mega-06jg-12dz.css',
                         'js/Mega-06jg-12dz.js'
-                   )">
-                   <img src="images/emoji-cara-dinheiro.png" width="20px" height="20px"> 
-                    06 jogos + 12 dezenas 
-                </a>
-            </li>
+                   )"
+            >
+              <img
+                src="images/emoji-cara-dinheiro.png"
+                width="20px"
+                height="20px"
+              />
+              06 jogos + 12 dezenas
+            </a>
+          </li>
 
-            <img src="images/lotofacil.JPG" alt="Lotofácil" title="Lotofácil">
+          <img src="images/lotofacil.JPG" alt="Lotofácil" title="Lotofácil" />
 
-            <li>           
-                <a href="#"
-                   onclick="carregarPagina(
+          <li>
+            <a
+              href="#"
+              onclick="carregarPagina(
+                        'paginas/Lotofacil-4jg-18dz-3fx.html',
+                        'css/Lotofacil-4jg-18dz-3fx.css',
+                        'js/Lotofacil-4jg-18dz-3fx.js'
+                   )"
+            >
+              <img
+                src="images/emoji-cara-dinheiro.png"
+                width="20px"
+                height="20px"
+              />
+              04 jogos + 18 dezenas + 03 fixas
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              onclick="carregarPagina(
                         'paginas/Lotofacil-4jg-19dz-3fx.html',
                         'css/Lotofacil-4jg-19dz-3fx.css',
                         'js/Lotofacil-4jg-19dz-3fx.js'
-                   )">
-                   <img src="images/emoji-cara-dinheiro.png" width="20px" height="20px"> 
-                    04 jogos + 19 dezenas + 03 fixas
-                </a>
-            </li>
+                   )"
+            >
+              <img
+                src="images/emoji-cara-dinheiro.png"
+                width="20px"
+                height="20px"
+              />
+              04 jogos + 19 dezenas + 03 fixas
+            </a>
+          </li>
 
-            <li>           
-                <a href="#"
-                   onclick="carregarPagina(
+          <li>
+            <a
+              href="#"
+              onclick="carregarPagina(
                         'paginas/Lotofacil-5jg-19dz-3fx.html',
                         'css/Lotofacil-5jg-19dz-3fx.css',
                         'js/Lotofacil-5jg-19dz-3fx.js'
-                   )">
-                   <img src="images/emoji-cara-dinheiro.png" width="20px" height="20px"> 
-                    05 jogos + 19 dezenas + 03 fixas
-                </a>
-            </li>   
+                   )"
+            >
+              <img
+                src="images/emoji-cara-dinheiro.png"
+                width="20px"
+                height="20px"
+              />
+              05 jogos + 19 dezenas + 03 fixas
+            </a>
+          </li>
 
-            <li>           
-                <a href="#"
-                   onclick="carregarPagina(
+          <li>
+            <a
+              href="#"
+              onclick="carregarPagina(
                         'paginas/Lotofacil-9jg-19dz-3fx.html',
                         'css/Lotofacil-9jg-19dz-3fx.css',
                         'js/Lotofacil-9jg-19dz-3fx.js'
-                   )">
-                   <img src="images/emoji-cara-dinheiro.png" width="20px" height="20px"> 
-                    09 jogos + 19 dezenas + 03 fixas
-                </a>
-            </li> 
+                   )"
+            >
+              <img
+                src="images/emoji-cara-dinheiro.png"
+                width="20px"
+                height="20px"
+              />
+              09 jogos + 19 dezenas + 03 fixas
+            </a>
+          </li>
 
-            <li>           
-                <a href="#"
-                   onclick="carregarPagina(
+          <li>
+            <a
+              href="#"
+              onclick="carregarPagina(
                         'paginas/Lotofacil-7jg-21dz-3fx.html',
                         'css/Lotofacil-7jg-21dz-3fx.css',
                         'js/Lotofacil-7jg-21dz-3fx.js'
-                   )">
-                   <img src="images/emoji-cara-dinheiro.png" width="20px" height="20px"> 
-                    07 jogos + 21 dezenas + 03 fixas
-                </a>
-            </li>      
+                   )"
+            >
+              <img
+                src="images/emoji-cara-dinheiro.png"
+                width="20px"
+                height="20px"
+              />
+              07 jogos + 21 dezenas + 03 fixas
+            </a>
+          </li>
 
-            <li>           
-                <a href="#"
-                   onclick="carregarPagina(
+          <li>
+            <a
+              href="#"
+              onclick="carregarPagina(
                         'paginas/Lotofacil-9jg-18dz.html',
                         'css/Lotofacil-9jg-18dz.css',
                         'js/Lotofacil-9jg-18dz.js'
-                   )">
-                   <img src="images/emoji-cara-dinheiro.png" width="20px" height="20px"> 
-                    09 jogos + 18 dezenas 
-                </a>
-            </li>              
-            
-            <li>           
-                <a href="#"
-                   onclick="carregarPagina(
+                   )"
+            >
+              <img
+                src="images/emoji-cara-dinheiro.png"
+                width="20px"
+                height="20px"
+              />
+              09 jogos + 18 dezenas
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              onclick="carregarPagina(
                         'paginas/Lotofacil-9jg-25dz.html',
                         'css/Lotofacil-9jg-25dz.css',
                         'js/Lotofacil-9jg-25dz.js'
-                   )">
-                   <img src="images/emoji-cara-dinheiro.png" width="20px" height="20px"> 
-                    09 jogos + 25 dezenas 
-                </a>
-            </li>    
-            
-            <li>           
-                <a href="#"
-                   onclick="carregarPagina(
+                   )"
+            >
+              <img
+                src="images/emoji-cara-dinheiro.png"
+                width="20px"
+                height="20px"
+              />
+              09 jogos + 25 dezenas
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              onclick="carregarPagina(
                         'paginas/Lotofacil-10jg-21dz.html',
                         'css/Lotofacil-10jg-21dz.css',
                         'js/Lotofacil-10jg-21dz.js'
-                   )">
-                   <img src="images/emoji-cara-dinheiro.png" width="20px" height="20px"> 
-                    10 jogos + 21 dezenas 
-                </a>
-            </li>              
-
+                   )"
+            >
+              <img
+                src="images/emoji-cara-dinheiro.png"
+                width="20px"
+                height="20px"
+              />
+              10 jogos + 21 dezenas
+            </a>
+          </li>
         </ul>
+      </aside>
 
-    </aside>
-
-    <main class="conteudo" id="conteudo">
-        <h2>Bem-vindo! A Importância dos Esquemas e Estratégias em Jogos de Loteria</h2> <br>
+      <main class="conteudo" id="conteudo">
+        <h2>
+          Bem-vindo! A Importância dos Esquemas e Estratégias em Jogos de
+          Loteria
+        </h2>
+        <br />
         <p>
-            As loterias são jogos de azar em que cada combinação possui, matematicamente, a mesma probabilidade de ser sorteada. Apesar disso, muitos apostadores utilizam esquemas e estratégias para organizar suas apostas de forma mais racional e consistente. É importante compreender que nenhuma estratégia é capaz de garantir prêmios ou alterar as probabilidades oficiais do sorteio, mas existem vantagens significativas na utilização de métodos estruturados.            
-        </p><br>
+          As loterias são jogos de azar em que cada combinação possui,
+          matematicamente, a mesma probabilidade de ser sorteada. Apesar disso,
+          muitos apostadores utilizam esquemas e estratégias para organizar suas
+          apostas de forma mais racional e consistente. É importante compreender
+          que nenhuma estratégia é capaz de garantir prêmios ou alterar as
+          probabilidades oficiais do sorteio, mas existem vantagens
+          significativas na utilização de métodos estruturados.
+        </p>
+        <br />
         <p>
-            O uso de esquemas e estratégias em jogos de loteria oferece vantagens importantes, como organização, disciplina, melhor distribuição das apostas, análise estatística e controle emocional. Embora não aumentem a probabilidade matemática de ganhar, essas metodologias permitem que o apostador jogue de forma mais estruturada e consciente, transformando a escolha das dezenas em um processo baseado em critérios objetivos e planejamento, em vez de simples escolhas aleatórias.
-        </p>        
-    </main>
+          O uso de esquemas e estratégias em jogos de loteria oferece vantagens
+          importantes, como organização, disciplina, melhor distribuição das
+          apostas, análise estatística e controle emocional. Embora não aumentem
+          a probabilidade matemática de ganhar, essas metodologias permitem que
+          o apostador jogue de forma mais estruturada e consciente,
+          transformando a escolha das dezenas em um processo baseado em
+          critérios objetivos e planejamento, em vez de simples escolhas
+          aleatórias.
+        </p>
+      </main>
+    </div>
 
-</div>
+    <footer>
+      <p>© 2026 - ESQUEMAS DE LOTERIAS + J2CM</p>
+    </footer>
 
-<footer>
-    <p>© 2026 - ESQUEMAS DE LOTERIAS + J2CM</p>
-</footer>
-
-<script src="app.js"></script>
-
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
