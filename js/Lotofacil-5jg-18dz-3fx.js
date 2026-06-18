@@ -43,6 +43,7 @@ function soma() {
   var total02;
   var total03;
   var total04;
+  var total05;
 
   total01 =
     parseFloat(0 + document.frm.JG0101.value) +
@@ -112,10 +113,28 @@ function soma() {
     parseFloat(0 + document.frm.JG0414.value) +
     parseFloat(0 + document.frm.JG0415.value);
 
+  total05 =
+    parseFloat(0 + document.frm.JG0501.value) +
+    parseFloat(0 + document.frm.JG0502.value) +
+    parseFloat(0 + document.frm.JG0503.value) +
+    parseFloat(0 + document.frm.JG0504.value) +
+    parseFloat(0 + document.frm.JG0505.value) +
+    parseFloat(0 + document.frm.JG0506.value) +
+    parseFloat(0 + document.frm.JG0507.value) +
+    parseFloat(0 + document.frm.JG0508.value) +
+    parseFloat(0 + document.frm.JG0509.value) +
+    parseFloat(0 + document.frm.JG0510.value) +
+    parseFloat(0 + document.frm.JG0511.value) +
+    parseFloat(0 + document.frm.JG0512.value) +
+    parseFloat(0 + document.frm.JG0513.value) +
+    parseFloat(0 + document.frm.JG0514.value) +
+    parseFloat(0 + document.frm.JG0515.value);
+
   document.frm.SOMA01.value = total01;
   document.frm.SOMA02.value = total02;
   document.frm.SOMA03.value = total03;
   document.frm.SOMA04.value = total04;
+  document.frm.SOMA05.value = total05;
 }
 
 // *********************************************************
@@ -125,6 +144,7 @@ function carregaNE01() {
   document.frm.JG0101.value = document.frm.NE01.value;
   document.frm.JG0305.value = document.frm.NE01.value;
   document.frm.JG0404.value = document.frm.NE01.value;
+  document.frm.JG0503.value = document.frm.NE01.value;
 }
 
 // *********************************************************
@@ -134,6 +154,7 @@ function carregaNE02() {
   document.frm.JG0102.value = document.frm.NE02.value;
   document.frm.JG0201.value = document.frm.NE02.value;
   document.frm.JG0405.value = document.frm.NE02.value;
+  document.frm.JG0504.value = document.frm.NE02.value;
 }
 
 // *********************************************************
@@ -143,6 +164,7 @@ function carregaNE03() {
   document.frm.JG0103.value = document.frm.NE03.value;
   document.frm.JG0202.value = document.frm.NE03.value;
   document.frm.JG0301.value = document.frm.NE03.value;
+  document.frm.JG0505.value = document.frm.NE03.value;
 }
 
 // *********************************************************
@@ -163,6 +185,7 @@ function carregaNE05() {
   document.frm.JG0204.value = document.frm.NE05.value;
   document.frm.JG0303.value = document.frm.NE05.value;
   document.frm.JG0402.value = document.frm.NE05.value;
+  document.frm.JG0501.value = document.frm.NE05.value;
 }
 
 // *********************************************************
@@ -172,6 +195,7 @@ function carregaNE06() {
   document.frm.JG0205.value = document.frm.NE06.value;
   document.frm.JG0304.value = document.frm.NE06.value;
   document.frm.JG0403.value = document.frm.NE06.value;
+  document.frm.JG0502.value = document.frm.NE06.value;
 }
 
 // *********************************************************
@@ -181,6 +205,7 @@ function carregaNE07() {
   document.frm.JG0106.value = document.frm.NE07.value;
   document.frm.JG0310.value = document.frm.NE07.value;
   document.frm.JG0409.value = document.frm.NE07.value;
+  document.frm.JG0508.value = document.frm.NE07.value;
 }
 
 // *********************************************************
@@ -190,6 +215,7 @@ function carregaNE08() {
   document.frm.JG0107.value = document.frm.NE08.value;
   document.frm.JG0206.value = document.frm.NE08.value;
   document.frm.JG0410.value = document.frm.NE08.value;
+  document.frm.JG0509.value = document.frm.NE08.value;
 }
 
 // *********************************************************
@@ -199,6 +225,7 @@ function carregaNE09() {
   document.frm.JG0108.value = document.frm.NE09.value;
   document.frm.JG0207.value = document.frm.NE09.value;
   document.frm.JG0306.value = document.frm.NE09.value;
+  document.frm.JG0510.value = document.frm.NE09.value; 
 }
 
 // *********************************************************
@@ -219,6 +246,7 @@ function carregaNE11() {
   document.frm.JG0209.value = document.frm.NE11.value;
   document.frm.JG0308.value = document.frm.NE11.value;
   document.frm.JG0407.value = document.frm.NE11.value;
+  document.frm.JG0506.value = document.frm.NE11.value;
 }
 
 // *********************************************************
@@ -228,6 +256,7 @@ function carregaNE12() {
   document.frm.JG0210.value = document.frm.NE12.value;
   document.frm.JG0309.value = document.frm.NE12.value;
   document.frm.JG0408.value = document.frm.NE12.value;
+  document.frm.JG0507.value = document.frm.NE12.value;
 }
 
 // *********************************************************
@@ -237,6 +266,7 @@ function carregaNE13() {
   document.frm.JG0111.value = document.frm.NE13.value;
   document.frm.JG0315.value = document.frm.NE13.value;
   document.frm.JG0414.value = document.frm.NE13.value;
+  document.frm.JG0513.value = document.frm.NE13.value;
 }
 
 // *********************************************************
@@ -246,6 +276,7 @@ function carregaNE14() {
   document.frm.JG0112.value = document.frm.NE14.value;
   document.frm.JG0211.value = document.frm.NE14.value;
   document.frm.JG0415.value = document.frm.NE14.value;
+  document.frm.JG0514.value = document.frm.NE14.value;
 }
 
 // *********************************************************
@@ -255,6 +286,7 @@ function carregaNE15() {
   document.frm.JG0113.value = document.frm.NE15.value;
   document.frm.JG0212.value = document.frm.NE15.value;
   document.frm.JG0311.value = document.frm.NE15.value;
+  document.frm.JG0515.value = document.frm.NE15.value; 
 }
 
 // *********************************************************
@@ -275,6 +307,7 @@ function carregaNE17() {
   document.frm.JG0214.value = document.frm.NE17.value;
   document.frm.JG0313.value = document.frm.NE17.value;
   document.frm.JG0412.value = document.frm.NE17.value;
+  document.frm.JG0511.value = document.frm.NE17.value;
 }
 
 // *********************************************************
@@ -284,6 +317,7 @@ function carregaNE18() {
   document.frm.JG0215.value = document.frm.NE18.value;
   document.frm.JG0314.value = document.frm.NE18.value;
   document.frm.JG0413.value = document.frm.NE18.value;
+  document.frm.JG0512.value = document.frm.NE18.value; 
 }
 
 // *********************************************************
@@ -596,11 +630,29 @@ function ordenarArray() {
     document.frm.JG0414.value,
     document.frm.JG0415.value,
   ]; // OK
+  var jogosArray05 = [
+    document.frm.JG0501.value,
+    document.frm.JG0502.value,
+    document.frm.JG0503.value,
+    document.frm.JG0504.value,
+    document.frm.JG0505.value,
+    document.frm.JG0506.value,
+    document.frm.JG0507.value,
+    document.frm.JG0508.value,
+    document.frm.JG0509.value,
+    document.frm.JG0510.value,
+    document.frm.JG0511.value,
+    document.frm.JG0512.value,
+    document.frm.JG0513.value,
+    document.frm.JG0514.value,
+    document.frm.JG0515.value,
+  ]; // OK
 
   var soma1 = [document.frm.SOMA01.value];
   var soma2 = [document.frm.SOMA02.value];
   var soma3 = [document.frm.SOMA03.value];
   var soma4 = [document.frm.SOMA04.value];
+  var soma5 = [document.frm.SOMA05.value];
 
   escreveJogos =
     " - JOGOS EM ORDEM CRESCENTE + " +
@@ -620,8 +672,12 @@ function ordenarArray() {
     jogosArray04.sort() +
     " = " +
     soma4 +
+    "\n Jogo 05: " +
+    jogosArray05.sort() +
+    " = " +
+    soma5 +
     "\n\n" +
-    "Recomendação: Recomendo que sejam feitos jogos com a SOMA entre 180 e 200(90%)";
+    "Recomendação: Sempre marque jogos com a SOMA entre 180 e 200(90%)";
 
   /* Chama a funººo de mostraJogos */
   mostraJogos(escreveJogos);

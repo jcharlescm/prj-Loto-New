@@ -513,8 +513,8 @@
 			
 			var jogosArray04 = [document.frm.JG0401.value, document.frm.JG0402.value, document.frm.JG0403.value, document.frm.JG0404.value, document.frm.JG0405.value, document.frm.JG0406.value, document.frm.JG0407.value, document.frm.JG0408.value, document.frm.JG0409.value, document.frm.JG0410.value, document.frm.JG0411.value, document.frm.JG0412.value, document.frm.JG0413.value, document.frm.JG0414.value, document.frm.JG0415.value];     // OK 
 
-            var jogosArray05 = [document.frm.JG0501.value, document.frm.JG0502.value, document.frm.JG0503.value, document.frm.JG0504.value, document.frm.JG0505.value, document.frm.JG0506.value, document.frm.JG0507.value, document.frm.JG0508.value, document.frm.JG0509.value, document.frm.JG0510.value, document.frm.JG0511.value, document.frm.JG0512.value, document.frm.JG0513.value, document.frm.JG0514.value, document.frm.JG0515.value];     // OK 
-                
+			var jogosArray05 = [document.frm.JG0501.value, document.frm.JG0502.value, document.frm.JG0503.value, document.frm.JG0504.value, document.frm.JG0505.value, document.frm.JG0506.value, document.frm.JG0507.value, document.frm.JG0508.value, document.frm.JG0509.value, document.frm.JG0510.value, document.frm.JG0511.value, document.frm.JG0512.value, document.frm.JG0513.value, document.frm.JG0514.value, document.frm.JG0515.value];     // OK 
+					
 			var soma1 = [document.frm.SOMA01.value]
 			var soma2 = [document.frm.SOMA02.value]
 			var soma3 = [document.frm.SOMA03.value]
