@@ -701,42 +701,85 @@ function ordenarArray() {
     document.frm.JG1405.value,
   ]; // OK
 
+  var soma01 = [document.frm.SOMA01.value];
+  var soma02 = [document.frm.SOMA02.value];
+  var soma03 = [document.frm.SOMA03.value];
+  var soma04 = [document.frm.SOMA04.value];
+  var soma05 = [document.frm.SOMA05.value];
+  var soma06 = [document.frm.SOMA06.value];
+  var soma07 = [document.frm.SOMA07.value];
+  var soma08 = [document.frm.SOMA08.value];
+  var soma09 = [document.frm.SOMA09.value];
+  var soma10 = [document.frm.SOMA10.value];
+  var soma11 = [document.frm.SOMA11.value];
+  var soma12 = [document.frm.SOMA12.value];
+  var soma13 = [document.frm.SOMA13.value];
+  var soma14 = [document.frm.SOMA14.value];
+
   escreveJogos =
     "JOGOS EM ORDEM CRESCENTE" +
     "\n\n Jogo 01: " +
     jogosArray01.sort() +
+    " = " +
+    soma01 +
     "\n Jogo 02: " +
     jogosArray02.sort() +
+    " = " +
+    soma02 +
     "\n Jogo 03: " +
     jogosArray03.sort() +
+    " = " +
+    soma03 +
     "\n Jogo 04: " +
     jogosArray04.sort() +
+    " = " +
+    soma04 +
     "\n Jogo 05: " +
     jogosArray05.sort() +
+    " = " +
+    soma05 +
     "\n";
   escreveJogos =
     escreveJogos +
     "\n Jogo 06: " +
     jogosArray06.sort() +
+    " = " +
+    soma06 +
     "\n Jogo 07: " +
     jogosArray07.sort() +
+    " = " +
+    soma07 +
     "\n Jogo 08: " +
     jogosArray08.sort() +
+    " = " +
+    soma08 +
     "\n Jogo 09: " +
     jogosArray09.sort() +
+    " = " +
+    soma09 +
     "\n Jogo 10: " +
     jogosArray10.sort() +
+    " = " +
+    soma10 +
     "\n";
   escreveJogos =
     escreveJogos +
     "\n Jogo 11: " +
     jogosArray11.sort() +
+    " = " +
+    soma11 +
     "\n Jogo 12: " +
     jogosArray12.sort() +
+    " = " +
+    soma12 +
     "\n Jogo 13: " +
     jogosArray13.sort() +
+    " = " +
+    soma13 +
     "\n Jogo 14: " +
     jogosArray14.sort() +
+    " = " +
+    soma14 + 
     "\n\n";
 
   /* Chama a funººo de mostraJogos */
