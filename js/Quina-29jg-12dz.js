@@ -278,6 +278,14 @@ function soma() {
   var total19;
   var total20;
   var total21;
+  var total22;
+  var total23;
+  var total24;
+  var total25;
+  var total26;
+  var total27;
+  var total28;
+  var total29;
 
 
   total01 =
@@ -406,29 +414,89 @@ function soma() {
     parseFloat(0 + document.frm.JG2103.value) +
     parseFloat(0 + document.frm.JG2104.value) +
     parseFloat(0 + document.frm.JG2105.value);
+  total22 =
+    parseFloat(0 + document.frm.JG2201.value) +
+    parseFloat(0 + document.frm.JG2202.value) +
+    parseFloat(0 + document.frm.JG2203.value) +
+    parseFloat(0 + document.frm.JG2204.value) +
+    parseFloat(0 + document.frm.JG2205.value);
+  total23 =
+    parseFloat(0 + document.frm.JG2301.value) +
+    parseFloat(0 + document.frm.JG2302.value) +
+    parseFloat(0 + document.frm.JG2303.value) +
+    parseFloat(0 + document.frm.JG2304.value) +
+    parseFloat(0 + document.frm.JG2305.value);
+  total24=
+    parseFloat(0 + document.frm.JG2401.value) +
+    parseFloat(0 + document.frm.JG2402.value) +
+    parseFloat(0 + document.frm.JG2403.value) +
+    parseFloat(0 + document.frm.JG2404.value) +
+    parseFloat(0 + document.frm.JG2405.value);
+  total25 =
+    parseFloat(0 + document.frm.JG2501.value) +
+    parseFloat(0 + document.frm.JG2502.value) +
+    parseFloat(0 + document.frm.JG2503.value) +
+    parseFloat(0 + document.frm.JG2504.value) +
+    parseFloat(0 + document.frm.JG2505.value);
+  total26 =
+    parseFloat(0 + document.frm.JG2601.value) +
+    parseFloat(0 + document.frm.JG2602.value) +
+    parseFloat(0 + document.frm.JG2603.value) +
+    parseFloat(0 + document.frm.JG2604.value) +
+    parseFloat(0 + document.frm.JG2605.value);
+  total27 =
+    parseFloat(0 + document.frm.JG2701.value) +
+    parseFloat(0 + document.frm.JG2702.value) +
+    parseFloat(0 + document.frm.JG2703.value) +
+    parseFloat(0 + document.frm.JG2704.value) +
+    parseFloat(0 + document.frm.JG2705.value);
+  total28 =
+    parseFloat(0 + document.frm.JG2801.value) +
+    parseFloat(0 + document.frm.JG2802.value) +
+    parseFloat(0 + document.frm.JG2803.value) +
+    parseFloat(0 + document.frm.JG2804.value) +
+    parseFloat(0 + document.frm.JG2805.value);
+  total29 =
+    parseFloat(0 + document.frm.JG2901.value) +
+    parseFloat(0 + document.frm.JG2902.value) +
+    parseFloat(0 + document.frm.JG2903.value) +
+    parseFloat(0 + document.frm.JG2904.value) +
+    parseFloat(0 + document.frm.JG2905.value);
 
-  document.frm.SOMA01.value = total01;
-  document.frm.SOMA02.value = total02;
-  document.frm.SOMA03.value = total03;
-  document.frm.SOMA04.value = total04;
-  document.frm.SOMA05.value = total05;
-  document.frm.SOMA06.value = total06;
-  document.frm.SOMA07.value = total07;
-  document.frm.SOMA08.value = total08;
-  document.frm.SOMA09.value = total09;
-  document.frm.SOMA10.value = total10;
-  document.frm.SOMA11.value = total11;
-  document.frm.SOMA12.value = total12;
-  document.frm.SOMA13.value = total13;
-  document.frm.SOMA14.value = total14;
+    document.frm.SOMA01.value = total01;
+    document.frm.SOMA02.value = total02;
+    document.frm.SOMA03.value = total03;
+    document.frm.SOMA04.value = total04;
+    document.frm.SOMA05.value = total05;
 
-  document.frm.SOMA15.value = total15;
-  document.frm.SOMA16.value = total16;
-  document.frm.SOMA17.value = total17;
-  document.frm.SOMA18.value = total18;
-  document.frm.SOMA19.value = total19;
-  document.frm.SOMA20.value = total20;  
-  document.frm.SOMA21.value = total21;  
+    document.frm.SOMA06.value = total06;
+    document.frm.SOMA07.value = total07;
+    document.frm.SOMA08.value = total08;
+    document.frm.SOMA09.value = total09;
+    document.frm.SOMA10.value = total10;
+
+    document.frm.SOMA11.value = total11;
+    document.frm.SOMA12.value = total12;
+    document.frm.SOMA13.value = total13;
+    document.frm.SOMA14.value = total14;
+    document.frm.SOMA15.value = total15;
+
+    document.frm.SOMA16.value = total16;
+    document.frm.SOMA17.value = total17;
+    document.frm.SOMA18.value = total18;
+    document.frm.SOMA19.value = total19;
+    document.frm.SOMA20.value = total20; 
+
+    document.frm.SOMA21.value = total21;  
+    document.frm.SOMA22.value = total22;  
+    document.frm.SOMA23.value = total23;  
+    document.frm.SOMA24.value = total24;  
+    document.frm.SOMA25.value = total25;  
+
+    document.frm.SOMA26.value = total26;  
+    document.frm.SOMA27.value = total27;  
+    document.frm.SOMA28.value = total28;  
+    document.frm.SOMA29.value = total29;  
 }
 
 // *********************************************************
@@ -899,6 +967,64 @@ function ordenarArray() {
     document.frm.JG2105.value,
   ]; // OK
 
+  var jogosArray22 = [
+    document.frm.JG2201.value,
+    document.frm.JG2202.value,
+    document.frm.JG2203.value,
+    document.frm.JG2204.value,
+    document.frm.JG2205.value,
+  ]; // OK
+  var jogosArray23 = [
+    document.frm.JG2301.value,
+    document.frm.JG2302.value,
+    document.frm.JG2303.value,
+    document.frm.JG2304.value,
+    document.frm.JG2305.value,
+  ]; // OK
+  var jogosArray24 = [
+    document.frm.JG2401.value,
+    document.frm.JG2402.value,
+    document.frm.JG2403.value,
+    document.frm.JG2404.value,
+    document.frm.JG2405.value,
+  ]; // OK
+  var jogosArray25 = [
+    document.frm.JG2501.value,
+    document.frm.JG2502.value,
+    document.frm.JG2503.value,
+    document.frm.JG2504.value,
+    document.frm.JG2505.value,
+  ]; // OK
+  var jogosArray26 = [
+    document.frm.JG2601.value,
+    document.frm.JG2602.value,
+    document.frm.JG2603.value,
+    document.frm.JG2604.value,
+    document.frm.JG2605.value,
+  ]; // OK
+  var jogosArray27 = [
+    document.frm.JG2701.value,
+    document.frm.JG2702.value,
+    document.frm.JG2703.value,
+    document.frm.JG2704.value,
+    document.frm.JG2705.value,
+  ]; // OK
+  var jogosArray28 = [
+    document.frm.JG2801.value,
+    document.frm.JG2802.value,
+    document.frm.JG2803.value,
+    document.frm.JG2804.value,
+    document.frm.JG2805.value,
+  ]; // OK
+  var jogosArray29 = [
+    document.frm.JG2901.value,
+    document.frm.JG2902.value,
+    document.frm.JG2903.value,
+    document.frm.JG2904.value,
+    document.frm.JG2905.value,
+  ]; // OK
+
+
   var soma01 = [document.frm.SOMA01.value];
   var soma02 = [document.frm.SOMA02.value];
   var soma03 = [document.frm.SOMA03.value];
@@ -922,7 +1048,17 @@ function ordenarArray() {
   var soma18 = [document.frm.SOMA18.value];
   var soma19 = [document.frm.SOMA19.value];
   var soma20 = [document.frm.SOMA20.value];
+
   var soma21 = [document.frm.SOMA21.value];
+  var soma22 = [document.frm.SOMA22.value];
+  var soma23 = [document.frm.SOMA23.value];  
+  var soma24 = [document.frm.SOMA24.value];
+  var soma25 = [document.frm.SOMA25.value];
+
+  var soma26 = [document.frm.SOMA26.value];
+  var soma27 = [document.frm.SOMA27.value];
+  var soma28 = [document.frm.SOMA28.value];
+  var soma29 = [document.frm.SOMA29.value];
 
   escreveJogos =
     "JOGOS EM ORDEM CRESCENTE" +
@@ -970,6 +1106,7 @@ function ordenarArray() {
     " = " +
     soma10 +
     "\n";
+    
   escreveJogos =
     escreveJogos +
     "\n Jogo 11: " +
@@ -993,6 +1130,7 @@ function ordenarArray() {
     " = " +
     soma15 +
     "\n";
+
   escreveJogos =
     escreveJogos +
     "\n Jogo 16: " +
@@ -1014,13 +1152,53 @@ function ordenarArray() {
     "\n Jogo 20: " +
     jogosArray20.sort() +
     " = " +
-    soma20 +  
-    "\n\n Jogo 21: " +
-    jogosArray21.sort() +
-    " = " +
-    soma21 +          
+    soma20 +         
     "\n\n";
 
+escreveJogos =
+    escreveJogos +
+    "\n Jogo 21: " +
+    jogosArray21.sort() +
+    " = " +
+    soma21 +      
+    "\n Jogo 22: " +
+    jogosArray22.sort() +
+    " = " +
+    soma22 +
+    "\n Jogo 23: " +
+    jogosArray23.sort() +
+    " = " +
+    soma23 +
+    "\n Jogo 24: " +
+    jogosArray24.sort() +
+    " = " +
+    soma24 +
+    "\n Jogo 25: " +
+    jogosArray25.sort() +
+    " = " +
+    soma25 +         
+    "\n\n";   
+
+escreveJogos =
+    escreveJogos +
+    "\n Jogo 26: " +
+    jogosArray26.sort() +
+    " = " +
+    soma26 +
+    "\n Jogo 27: " +
+    jogosArray27.sort() +
+    " = " +
+    soma27 +
+    "\n Jogo 28: " +
+    jogosArray28.sort() +
+    " = " +
+    soma28 +
+    "\n Jogo 29: " +
+    jogosArray29.sort() +
+    " = " +
+    soma29 +
+          
+    "\n\n";    
   /* Chama a funººo de mostraJogos */
   mostraJogos(escreveJogos);
 }
