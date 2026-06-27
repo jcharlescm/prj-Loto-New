@@ -124,16 +124,13 @@ function carregaNE06() {
 // Carrega o Primeiro Número NE06 nos campos JG0106, JG0403 e JG0503
 // *********************************************************
 function carregaNE07() {
-  document.frm.JG1402.value = document.frm.NE07.value;
-
-  document.frm.JG0903.value = document.frm.NE07.value;
-
   document.frm.JG0304.value = document.frm.NE07.value;
+  document.frm.JG0405.value = document.frm.NE07.value;
   document.frm.JG0704.value = document.frm.NE07.value;
+  document.frm.JG0903.value = document.frm.NE07.value;
   document.frm.JG1004.value = document.frm.NE07.value;
   document.frm.JG1304.value = document.frm.NE07.value;
-
-  document.frm.JG0405.value = document.frm.NE07.value;
+  document.frm.JG1402.value = document.frm.NE07.value;
 }
 
 // *********************************************************
@@ -626,7 +623,7 @@ function ordenarArray() {
     document.frm.JG0401.value,
     document.frm.JG0402.value,
     document.frm.JG0403.value,
-    document.frm.JG0405.value,
+    document.frm.JG0404.value,
     document.frm.JG0405.value,
   ]; // OK
   var jogosArray05 = [
@@ -779,7 +776,7 @@ function ordenarArray() {
     "\n Jogo 14: " +
     jogosArray14.sort() +
     " = " +
-    soma14 + 
+    soma14 +
     "\n\n";
 
   /* Chama a funººo de mostraJogos */
