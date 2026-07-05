@@ -2198,7 +2198,7 @@ function ordenarArray() {
 
   var soma76 = [document.frm.SOMA76.value];
   var soma77 = [document.frm.SOMA77.value];
-  var soma75 = [document.frm.SOMA78.value];
+  var soma78 = [document.frm.SOMA78.value];
   var soma79 = [document.frm.SOMA79.value];
   var soma80 = [document.frm.SOMA80.value];
 
