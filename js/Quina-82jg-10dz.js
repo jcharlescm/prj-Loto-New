@@ -2563,7 +2563,7 @@ function ordenarArray() {
     jogosArray75.sort() +
     " = " +
     soma75 +
-    "\n\n";
+    "\n";
 
   escreveJogos =
     escreveJogos +
@@ -2587,7 +2587,7 @@ function ordenarArray() {
     jogosArray80.sort() +
     " = " +
     soma80 +
-    "\n\n";
+    "\n";
 
   escreveJogos =
     escreveJogos +
