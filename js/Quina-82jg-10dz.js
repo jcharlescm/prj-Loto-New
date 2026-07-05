@@ -67,6 +67,12 @@ function carregaNE01() {
   document.frm.JG2701.value = document.frm.NE01.value;
   document.frm.JG2801.value = document.frm.NE01.value;
   document.frm.JG2901.value = document.frm.NE01.value;
+  document.frm.JG7601.value = document.frm.NE01.value;
+  document.frm.JG7701.value = document.frm.NE01.value;
+  document.frm.JG7801.value = document.frm.NE01.value;
+  document.frm.JG7901.value = document.frm.NE01.value;
+  document.frm.JG8001.value = document.frm.NE01.value;
+  document.frm.JG8201.value = document.frm.NE01.value;
 }
 
 // *********************************************************
@@ -111,6 +117,7 @@ function carregaNE02() {
   document.frm.JG5101.value = document.frm.NE02.value;
   document.frm.JG5201.value = document.frm.NE02.value;
   document.frm.JG5301.value = document.frm.NE02.value;
+  document.frm.JG8202.value = document.frm.NE02.value;
 }
 
 // *********************************************************
@@ -155,6 +162,8 @@ function carregaNE03() {
   document.frm.JG6301.value = document.frm.NE03.value;
   document.frm.JG6401.value = document.frm.NE03.value;
   document.frm.JG6501.value = document.frm.NE03.value;
+  document.frm.JG7602.value = document.frm.NE03.value;
+  document.frm.JG8101.value = document.frm.NE03.value;
 }
 
 // *********************************************************
@@ -197,6 +206,9 @@ function carregaNE04() {
   document.frm.JG7001.value = document.frm.NE04.value;
   document.frm.JG7101.value = document.frm.NE04.value;
   document.frm.JG7201.value = document.frm.NE04.value;
+  document.frm.JG7702.value = document.frm.NE04.value;
+  document.frm.JG7802.value = document.frm.NE04.value;
+  document.frm.JG8102.value = document.frm.NE04.value;
 }
 
 // *********************************************************
@@ -240,6 +252,9 @@ function carregaNE05() {
   document.frm.JG7202.value = document.frm.NE05.value;
   document.frm.JG7301.value = document.frm.NE05.value;
   document.frm.JG7401.value = document.frm.NE05.value;
+  document.frm.JG7902.value = document.frm.NE05.value;
+  document.frm.JG8002.value = document.frm.NE05.value;
+  document.frm.JG8103.value = document.frm.NE05.value;
 }
 
 // *********************************************************
@@ -285,6 +300,9 @@ function carregaNE06() {
   document.frm.JG7203.value = document.frm.NE06.value;
   document.frm.JG7302.value = document.frm.NE06.value;
   document.frm.JG7501.value = document.frm.NE06.value;
+  document.frm.JG7603.value = document.frm.NE06.value;
+  document.frm.JG7803.value = document.frm.NE06.value;
+  document.frm.JG8003.value = document.frm.NE06.value;
 }
 
 // *********************************************************
@@ -336,6 +354,8 @@ function carregaNE07() {
   document.frm.JG7303.value = document.frm.NE07.value;
   document.frm.JG7402.value = document.frm.NE07.value;
   document.frm.JG7502.value = document.frm.NE07.value;
+  document.frm.JG7703.value = document.frm.NE07.value;
+  document.frm.JG7903.value = document.frm.NE07.value;
 }
 
 // *********************************************************
@@ -384,7 +404,11 @@ function carregaNE08() {
   document.frm.JG7304.value = document.frm.NE08.value;
   document.frm.JG7403.value = document.frm.NE08.value;
   document.frm.JG7503.value = document.frm.NE08.value;
-  document.frm.JG5103.value = document.frm.NE08.value;
+  document.frm.JG7604.value = document.frm.NE08.value;
+  document.frm.JG7804.value = document.frm.NE08.value;
+  document.frm.JG8004.value = document.frm.NE08.value;
+  document.frm.JG8104.value = document.frm.NE08.value;
+  document.frm.JG8203.value = document.frm.NE08.value;
 }
 
 // *********************************************************
@@ -433,6 +457,9 @@ function carregaNE09() {
   document.frm.JG7305.value = document.frm.NE09.value;
   document.frm.JG7404.value = document.frm.NE09.value;
   document.frm.JG7504.value = document.frm.NE09.value;
+  document.frm.JG7704.value = document.frm.NE09.value;
+  document.frm.JG7904.value = document.frm.NE09.value;
+  document.frm.JG8204.value = document.frm.NE09.value;
 }
 
 // *********************************************************
@@ -471,6 +498,13 @@ function carregaNE10() {
   document.frm.JG7205.value = document.frm.NE10.value;
   document.frm.JG7405.value = document.frm.NE10.value;
   document.frm.JG7505.value = document.frm.NE10.value;
+  document.frm.JG7605.value = document.frm.NE10.value;
+  document.frm.JG7705.value = document.frm.NE10.value;
+  document.frm.JG7805.value = document.frm.NE10.value;
+  document.frm.JG7905.value = document.frm.NE10.value;
+  document.frm.JG8005.value = document.frm.NE10.value;
+  document.frm.JG8105.value = document.frm.NE10.value;
+  document.frm.JG8205.value = document.frm.NE10.value;
 }
 
 // *********************************************************
@@ -559,6 +593,14 @@ function soma() {
   var total73;
   var total74;
   var total75;
+
+  var total76;
+  var total77;
+  var total78;
+  var total79;
+  var total80;
+  var total81;
+  var total82;
 
   total01 =
     parseFloat(0 + document.frm.JG0101.value) +
@@ -1014,6 +1056,50 @@ function soma() {
     parseFloat(0 + document.frm.JG7504.value) +
     parseFloat(0 + document.frm.JG7505.value);
 
+  total76 =
+    parseFloat(0 + document.frm.JG7601.value) +
+    parseFloat(0 + document.frm.JG7602.value) +
+    parseFloat(0 + document.frm.JG7603.value) +
+    parseFloat(0 + document.frm.JG7604.value) +
+    parseFloat(0 + document.frm.JG7605.value);
+  total77 =
+    parseFloat(0 + document.frm.JG7701.value) +
+    parseFloat(0 + document.frm.JG7702.value) +
+    parseFloat(0 + document.frm.JG7703.value) +
+    parseFloat(0 + document.frm.JG7704.value) +
+    parseFloat(0 + document.frm.JG7705.value);
+  total78 =
+    parseFloat(0 + document.frm.JG7801.value) +
+    parseFloat(0 + document.frm.JG7802.value) +
+    parseFloat(0 + document.frm.JG7803.value) +
+    parseFloat(0 + document.frm.JG7804.value) +
+    parseFloat(0 + document.frm.JG7805.value);
+  total79 =
+    parseFloat(0 + document.frm.JG7901.value) +
+    parseFloat(0 + document.frm.JG7902.value) +
+    parseFloat(0 + document.frm.JG7903.value) +
+    parseFloat(0 + document.frm.JG7904.value) +
+    parseFloat(0 + document.frm.JG7905.value);
+  total80 =
+    parseFloat(0 + document.frm.JG8001.value) +
+    parseFloat(0 + document.frm.JG8002.value) +
+    parseFloat(0 + document.frm.JG8003.value) +
+    parseFloat(0 + document.frm.JG8004.value) +
+    parseFloat(0 + document.frm.JG8005.value);
+
+  total81 =
+    parseFloat(0 + document.frm.JG8101.value) +
+    parseFloat(0 + document.frm.JG8102.value) +
+    parseFloat(0 + document.frm.JG8103.value) +
+    parseFloat(0 + document.frm.JG8104.value) +
+    parseFloat(0 + document.frm.JG8105.value);
+  total82 =
+    parseFloat(0 + document.frm.JG8201.value) +
+    parseFloat(0 + document.frm.JG8202.value) +
+    parseFloat(0 + document.frm.JG8203.value) +
+    parseFloat(0 + document.frm.JG8204.value) +
+    parseFloat(0 + document.frm.JG8205.value);
+
   document.frm.SOMA01.value = total01;
   document.frm.SOMA02.value = total02;
   document.frm.SOMA03.value = total03;
@@ -1103,6 +1189,15 @@ function soma() {
   document.frm.SOMA73.value = total73;
   document.frm.SOMA74.value = total74;
   document.frm.SOMA75.value = total75;
+
+  document.frm.SOMA76.value = total76;
+  document.frm.SOMA77.value = total77;
+  document.frm.SOMA78.value = total78;
+  document.frm.SOMA79.value = total79;
+  document.frm.SOMA80.value = total80;
+
+  document.frm.SOMA81.value = total81;
+  document.frm.SOMA82.value = total82;
 }
 
 // *********************************************************
@@ -1961,6 +2056,56 @@ function ordenarArray() {
     document.frm.JG7505.value,
   ]; // OK
 
+  var jogosArray76 = [
+    document.frm.JG7601.value,
+    document.frm.JG7602.value,
+    document.frm.JG7603.value,
+    document.frm.JG7604.value,
+    document.frm.JG7605.value,
+  ]; // OK
+  var jogosArray77 = [
+    document.frm.JG7701.value,
+    document.frm.JG7702.value,
+    document.frm.JG7703.value,
+    document.frm.JG7704.value,
+    document.frm.JG7705.value,
+  ]; // OK
+  var jogosArray78 = [
+    document.frm.JG7801.value,
+    document.frm.JG7802.value,
+    document.frm.JG7803.value,
+    document.frm.JG7804.value,
+    document.frm.JG7805.value,
+  ]; // OK
+  var jogosArray79 = [
+    document.frm.JG7901.value,
+    document.frm.JG7902.value,
+    document.frm.JG7903.value,
+    document.frm.JG7904.value,
+    document.frm.JG7905.value,
+  ]; // OK
+  var jogosArray80 = [
+    document.frm.JG8001.value,
+    document.frm.JG8002.value,
+    document.frm.JG8003.value,
+    document.frm.JG8004.value,
+    document.frm.JG8005.value,
+  ]; // OK
+  var jogosArray81 = [
+    document.frm.JG8101.value,
+    document.frm.JG8102.value,
+    document.frm.JG8103.value,
+    document.frm.JG8104.value,
+    document.frm.JG8105.value,
+  ]; // OK
+  var jogosArray82 = [
+    document.frm.JG8201.value,
+    document.frm.JG8202.value,
+    document.frm.JG8203.value,
+    document.frm.JG8204.value,
+    document.frm.JG8205.value,
+  ]; // OK
+
   var soma01 = [document.frm.SOMA01.value];
   var soma02 = [document.frm.SOMA02.value];
   var soma03 = [document.frm.SOMA03.value];
@@ -2050,6 +2195,15 @@ function ordenarArray() {
   var soma73 = [document.frm.SOMA73.value];
   var soma74 = [document.frm.SOMA74.value];
   var soma75 = [document.frm.SOMA75.value];
+
+  var soma76 = [document.frm.SOMA76.value];
+  var soma77 = [document.frm.SOMA77.value];
+  var soma75 = [document.frm.SOMA78.value];
+  var soma79 = [document.frm.SOMA79.value];
+  var soma80 = [document.frm.SOMA80.value];
+
+  var soma81 = [document.frm.SOMA81.value];
+  var soma82 = [document.frm.SOMA82.value];
 
   escreveJogos =
     "JOGOS EM ORDEM CRESCENTE" +
@@ -2409,6 +2563,42 @@ function ordenarArray() {
     jogosArray75.sort() +
     " = " +
     soma75 +
+    "\n\n";
+
+  escreveJogos =
+    escreveJogos +
+    "\n Jogo 76: " +
+    jogosArray76.sort() +
+    " = " +
+    soma76 +
+    "\n Jogo 77: " +
+    jogosArray77.sort() +
+    " = " +
+    soma77 +
+    "\n Jogo 78: " +
+    jogosArray78.sort() +
+    " = " +
+    soma78 +
+    "\n Jogo 79: " +
+    jogosArray79.sort() +
+    " = " +
+    soma79 +
+    "\n Jogo 80: " +
+    jogosArray80.sort() +
+    " = " +
+    soma80 +
+    "\n\n";
+
+  escreveJogos =
+    escreveJogos +
+    "\n Jogo 81: " +
+    jogosArray81.sort() +
+    " = " +
+    soma81 +
+    "\n Jogo 82: " +
+    jogosArray82.sort() +
+    " = " +
+    soma82 +
     "\n\n";
 
   /* Chama a funººo de mostraJogos */
