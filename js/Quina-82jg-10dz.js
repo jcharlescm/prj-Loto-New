@@ -73,6 +73,7 @@ function carregaNE01() {
   document.frm.JG7901.value = document.frm.NE01.value;
   document.frm.JG8001.value = document.frm.NE01.value;
   document.frm.JG8201.value = document.frm.NE01.value;
+  document.frm.JG8301.value = document.frm.NE01.value;
 }
 
 // *********************************************************
@@ -118,6 +119,7 @@ function carregaNE02() {
   document.frm.JG5201.value = document.frm.NE02.value;
   document.frm.JG5301.value = document.frm.NE02.value;
   document.frm.JG8202.value = document.frm.NE02.value;
+  document.frm.JG8401.value = document.frm.NE02.value;
 }
 
 // *********************************************************
@@ -164,6 +166,7 @@ function carregaNE03() {
   document.frm.JG6501.value = document.frm.NE03.value;
   document.frm.JG7602.value = document.frm.NE03.value;
   document.frm.JG8101.value = document.frm.NE03.value;
+  document.frm.JG8302.value = document.frm.NE03.value;
 }
 
 // *********************************************************
@@ -209,6 +212,8 @@ function carregaNE04() {
   document.frm.JG7702.value = document.frm.NE04.value;
   document.frm.JG7802.value = document.frm.NE04.value;
   document.frm.JG8102.value = document.frm.NE04.value;
+  document.frm.JG8303.value = document.frm.NE04.value;
+  document.frm.JG8402.value = document.frm.NE04.value;
 }
 
 // *********************************************************
@@ -303,6 +308,8 @@ function carregaNE06() {
   document.frm.JG7603.value = document.frm.NE06.value;
   document.frm.JG7803.value = document.frm.NE06.value;
   document.frm.JG8003.value = document.frm.NE06.value;
+  document.frm.JG8304.value = document.frm.NE06.value;
+  document.frm.JG8403.value = document.frm.NE06.value;
 }
 
 // *********************************************************
@@ -409,6 +416,7 @@ function carregaNE08() {
   document.frm.JG8004.value = document.frm.NE08.value;
   document.frm.JG8104.value = document.frm.NE08.value;
   document.frm.JG8203.value = document.frm.NE08.value;
+  document.frm.JG8404.value = document.frm.NE08.value;
 }
 
 // *********************************************************
@@ -460,6 +468,7 @@ function carregaNE09() {
   document.frm.JG7704.value = document.frm.NE09.value;
   document.frm.JG7904.value = document.frm.NE09.value;
   document.frm.JG8204.value = document.frm.NE09.value;
+  document.frm.JG8305.value = document.frm.NE09.value;
 }
 
 // *********************************************************
@@ -505,6 +514,7 @@ function carregaNE10() {
   document.frm.JG8005.value = document.frm.NE10.value;
   document.frm.JG8105.value = document.frm.NE10.value;
   document.frm.JG8205.value = document.frm.NE10.value;
+  document.frm.JG8405.value = document.frm.NE10.value;
 }
 
 // *********************************************************
@@ -601,6 +611,8 @@ function soma() {
   var total80;
   var total81;
   var total82;
+  var total83;
+  var total84;
 
   total01 =
     parseFloat(0 + document.frm.JG0101.value) +
@@ -1099,6 +1111,18 @@ function soma() {
     parseFloat(0 + document.frm.JG8203.value) +
     parseFloat(0 + document.frm.JG8204.value) +
     parseFloat(0 + document.frm.JG8205.value);
+  total83 =
+    parseFloat(0 + document.frm.JG8301.value) +
+    parseFloat(0 + document.frm.JG8302.value) +
+    parseFloat(0 + document.frm.JG8303.value) +
+    parseFloat(0 + document.frm.JG8304.value) +
+    parseFloat(0 + document.frm.JG8305.value);
+  total84 =
+    parseFloat(0 + document.frm.JG8401.value) +
+    parseFloat(0 + document.frm.JG8402.value) +
+    parseFloat(0 + document.frm.JG8403.value) +
+    parseFloat(0 + document.frm.JG8404.value) +
+    parseFloat(0 + document.frm.JG8405.value);
 
   document.frm.SOMA01.value = total01;
   document.frm.SOMA02.value = total02;
@@ -1198,6 +1222,8 @@ function soma() {
 
   document.frm.SOMA81.value = total81;
   document.frm.SOMA82.value = total82;
+  document.frm.SOMA83.value = total83;
+  document.frm.SOMA84.value = total84;
 }
 
 // *********************************************************
@@ -1495,21 +1521,6 @@ function tamanhoTexto(textoNum, nomeComp) {
     }
     if (nomeComp == "NE10") {
       document.frm.NE10.value = "0" + document.frm.NE10.value;
-    }
-    if (nomeComp == "NE11") {
-      document.frm.NE11.value = "0" + document.frm.NE11.value;
-    }
-    if (nomeComp == "NE12") {
-      document.frm.NE12.value = "0" + document.frm.NE12.value;
-    }
-    if (nomeComp == "NE13") {
-      document.frm.NE13.value = "0" + document.frm.NE13.value;
-    }
-    if (nomeComp == "NE14") {
-      document.frm.NE14.value = "0" + document.frm.NE14.value;
-    }
-    if (nomeComp == "NE15") {
-      document.frm.NE15.value = "0" + document.frm.NE15.value;
     }
   }
 }
@@ -2105,6 +2116,20 @@ function ordenarArray() {
     document.frm.JG8204.value,
     document.frm.JG8205.value,
   ]; // OK
+  var jogosArray83 = [
+    document.frm.JG8301.value,
+    document.frm.JG8302.value,
+    document.frm.JG8303.value,
+    document.frm.JG8304.value,
+    document.frm.JG8305.value,
+  ]; // OK
+  var jogosArray84 = [
+    document.frm.JG8401.value,
+    document.frm.JG8402.value,
+    document.frm.JG8403.value,
+    document.frm.JG8404.value,
+    document.frm.JG8405.value,
+  ]; // OK
 
   var soma01 = [document.frm.SOMA01.value];
   var soma02 = [document.frm.SOMA02.value];
@@ -2204,6 +2229,8 @@ function ordenarArray() {
 
   var soma81 = [document.frm.SOMA81.value];
   var soma82 = [document.frm.SOMA82.value];
+  var soma83 = [document.frm.SOMA83.value];
+  var soma84 = [document.frm.SOMA84.value];
 
   escreveJogos =
     "JOGOS EM ORDEM CRESCENTE" +
@@ -2599,6 +2626,14 @@ function ordenarArray() {
     jogosArray82.sort() +
     " = " +
     soma82 +
+    "\n Jogo 83: " +
+    jogosArray83.sort() +
+    " = " +
+    soma83 +
+    "\n Jogo 84: " +
+    jogosArray84.sort() +
+    " = " +
+    soma84 +
     "\n\n";
 
   /* Chama a funººo de mostraJogos */
