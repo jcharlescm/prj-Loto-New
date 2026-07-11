@@ -225,32 +225,106 @@ function soma() {
     parseFloat(0 + document.frm.JG1014.value) +
     parseFloat(0 + document.frm.JG1015.value);
 
-    total11 = parseFloat(0 + document.frm.JG1101.value) + parseFloat(0 + document.frm.JG1102.value) + parseFloat(0 + document.frm.JG1103.value) + parseFloat(0 + document.frm.JG1104.value) + parseFloat(0 + document.frm.JG1105.value) + parseFloat(0 + document.frm.JG1106.value) + parseFloat(0 + document.frm.JG1107.value) + parseFloat(0 + document.frm.JG1108.value) + parseFloat(0 + document.frm.JG1109.value) + parseFloat(0 + document.frm.JG1110.value) + parseFloat(0 + document.frm.JG1111.value) + parseFloat(0 + document.frm.JG1112.value) + parseFloat(0 + document.frm.JG1113.value) + parseFloat(0 + document.frm.JG1114.value) + parseFloat(0 + document.frm.JG1115.value);
+  total11 =
+    parseFloat(0 + document.frm.JG1101.value) +
+    parseFloat(0 + document.frm.JG1102.value) +
+    parseFloat(0 + document.frm.JG1103.value) +
+    parseFloat(0 + document.frm.JG1104.value) +
+    parseFloat(0 + document.frm.JG1105.value) +
+    parseFloat(0 + document.frm.JG1106.value) +
+    parseFloat(0 + document.frm.JG1107.value) +
+    parseFloat(0 + document.frm.JG1108.value) +
+    parseFloat(0 + document.frm.JG1109.value) +
+    parseFloat(0 + document.frm.JG1110.value) +
+    parseFloat(0 + document.frm.JG1111.value) +
+    parseFloat(0 + document.frm.JG1112.value) +
+    parseFloat(0 + document.frm.JG1113.value) +
+    parseFloat(0 + document.frm.JG1114.value) +
+    parseFloat(0 + document.frm.JG1115.value);
 
-    total12 = parseFloat(0 + document.frm.JG1201.value) + parseFloat(0 + document.frm.JG1202.value) + parseFloat(0 + document.frm.JG1203.value) + parseFloat(0 + document.frm.JG1204.value) + parseFloat(0 + document.frm.JG1205.value) + parseFloat(0 + document.frm.JG1206.value) + parseFloat(0 + document.frm.JG1207.value) + parseFloat(0 + document.frm.JG1208.value) + parseFloat(0 + document.frm.JG1209.value) + parseFloat(0 + document.frm.JG1210.value) + parseFloat(0 + document.frm.JG1211.value) + parseFloat(0 + document.frm.JG1212.value) + parseFloat(0 + document.frm.JG1213.value) + parseFloat(0 + document.frm.JG1214.value) + parseFloat(0 + document.frm.JG1215.value);
+  total12 =
+    parseFloat(0 + document.frm.JG1201.value) +
+    parseFloat(0 + document.frm.JG1202.value) +
+    parseFloat(0 + document.frm.JG1203.value) +
+    parseFloat(0 + document.frm.JG1204.value) +
+    parseFloat(0 + document.frm.JG1205.value) +
+    parseFloat(0 + document.frm.JG1206.value) +
+    parseFloat(0 + document.frm.JG1207.value) +
+    parseFloat(0 + document.frm.JG1208.value) +
+    parseFloat(0 + document.frm.JG1209.value) +
+    parseFloat(0 + document.frm.JG1210.value) +
+    parseFloat(0 + document.frm.JG1211.value) +
+    parseFloat(0 + document.frm.JG1212.value) +
+    parseFloat(0 + document.frm.JG1213.value) +
+    parseFloat(0 + document.frm.JG1214.value) +
+    parseFloat(0 + document.frm.JG1215.value);
 
-    total13 = parseFloat(0 + document.frm.JG1301.value) + parseFloat(0 + document.frm.JG1302.value) + parseFloat(0 + document.frm.JG1303.value) + parseFloat(0 + document.frm.JG1304.value) + parseFloat(0 + document.frm.JG1305.value) + parseFloat(0 + document.frm.JG1306.value) + parseFloat(0 + document.frm.JG1307.value) + parseFloat(0 + document.frm.JG1308.value) + parseFloat(0 + document.frm.JG1309.value) + parseFloat(0 + document.frm.JG1310.value) + parseFloat(0 + document.frm.JG1311.value) + parseFloat(0 + document.frm.JG1312.value) + parseFloat(0 + document.frm.JG1313.value) + parseFloat(0 + document.frm.JG1314.value) + parseFloat(0 + document.frm.JG1315.value);
+  total13 =
+    parseFloat(0 + document.frm.JG1301.value) +
+    parseFloat(0 + document.frm.JG1302.value) +
+    parseFloat(0 + document.frm.JG1303.value) +
+    parseFloat(0 + document.frm.JG1304.value) +
+    parseFloat(0 + document.frm.JG1305.value) +
+    parseFloat(0 + document.frm.JG1306.value) +
+    parseFloat(0 + document.frm.JG1307.value) +
+    parseFloat(0 + document.frm.JG1308.value) +
+    parseFloat(0 + document.frm.JG1309.value) +
+    parseFloat(0 + document.frm.JG1310.value) +
+    parseFloat(0 + document.frm.JG1311.value) +
+    parseFloat(0 + document.frm.JG1312.value) +
+    parseFloat(0 + document.frm.JG1313.value) +
+    parseFloat(0 + document.frm.JG1314.value) +
+    parseFloat(0 + document.frm.JG1315.value);
 
-    total14 = parseFloat(0 + document.frm.JG1401.value) + parseFloat(0 + document.frm.JG1402.value) + parseFloat(0 + document.frm.JG1403.value) + parseFloat(0 + document.frm.JG1404.value) + parseFloat(0 + document.frm.JG1405.value) + parseFloat(0 + document.frm.JG1406.value) + parseFloat(0 + document.frm.JG1407.value) + parseFloat(0 + document.frm.JG1408.value) + parseFloat(0 + document.frm.JG1409.value) + parseFloat(0 + document.frm.JG1410.value) + parseFloat(0 + document.frm.JG1411.value) + parseFloat(0 + document.frm.JG1412.value) + parseFloat(0 + document.frm.JG1413.value) + parseFloat(0 + document.frm.JG1414.value) + parseFloat(0 + document.frm.JG1415.value);
+  total14 =
+    parseFloat(0 + document.frm.JG1401.value) +
+    parseFloat(0 + document.frm.JG1402.value) +
+    parseFloat(0 + document.frm.JG1403.value) +
+    parseFloat(0 + document.frm.JG1404.value) +
+    parseFloat(0 + document.frm.JG1405.value) +
+    parseFloat(0 + document.frm.JG1406.value) +
+    parseFloat(0 + document.frm.JG1407.value) +
+    parseFloat(0 + document.frm.JG1408.value) +
+    parseFloat(0 + document.frm.JG1409.value) +
+    parseFloat(0 + document.frm.JG1410.value) +
+    parseFloat(0 + document.frm.JG1411.value) +
+    parseFloat(0 + document.frm.JG1412.value) +
+    parseFloat(0 + document.frm.JG1413.value) +
+    parseFloat(0 + document.frm.JG1414.value) +
+    parseFloat(0 + document.frm.JG1415.value);
 
-    total15 = parseFloat(0 + document.frm.JG1501.value) + parseFloat(0 + document.frm.JG1502.value) + parseFloat(0 + document.frm.JG1503.value) + parseFloat(0 + document.frm.JG1504.value) + parseFloat(0 + document.frm.JG1505.value) + parseFloat(0 + document.frm.JG1506.value) + parseFloat(0 + document.frm.JG1507.value) + parseFloat(0 + document.frm.JG1508.value) + parseFloat(0 + document.frm.JG1509.value) + parseFloat(0 + document.frm.JG1510.value) + parseFloat(0 + document.frm.JG1511.value) + parseFloat(0 + document.frm.JG1512.value) + parseFloat(0 + document.frm.JG1513.value) + parseFloat(0 + document.frm.JG1514.value) + parseFloat(0 + document.frm.JG1515.value);
+  total15 =
+    parseFloat(0 + document.frm.JG1501.value) +
+    parseFloat(0 + document.frm.JG1502.value) +
+    parseFloat(0 + document.frm.JG1503.value) +
+    parseFloat(0 + document.frm.JG1504.value) +
+    parseFloat(0 + document.frm.JG1505.value) +
+    parseFloat(0 + document.frm.JG1506.value) +
+    parseFloat(0 + document.frm.JG1507.value) +
+    parseFloat(0 + document.frm.JG1508.value) +
+    parseFloat(0 + document.frm.JG1509.value) +
+    parseFloat(0 + document.frm.JG1510.value) +
+    parseFloat(0 + document.frm.JG1511.value) +
+    parseFloat(0 + document.frm.JG1512.value) +
+    parseFloat(0 + document.frm.JG1513.value) +
+    parseFloat(0 + document.frm.JG1514.value) +
+    parseFloat(0 + document.frm.JG1515.value);
 
-    document.frm.SOMA01.value = total01;
-    document.frm.SOMA02.value = total02;
-    document.frm.SOMA03.value = total03;
-    document.frm.SOMA04.value = total04;
-    document.frm.SOMA05.value = total05;
-    document.frm.SOMA06.value = total06;
-    document.frm.SOMA07.value = total07;
-    document.frm.SOMA08.value = total08;
-    document.frm.SOMA09.value = total09;
-    document.frm.SOMA10.value = total10;
-    document.frm.SOMA11.value = total11;   			
-    document.frm.SOMA12.value = total12;	           
-    document.frm.SOMA13.value = total13;   			
-    document.frm.SOMA14.value = total14; 
-    document.frm.SOMA15.value = total15;
-
+  document.frm.SOMA01.value = total01;
+  document.frm.SOMA02.value = total02;
+  document.frm.SOMA03.value = total03;
+  document.frm.SOMA04.value = total04;
+  document.frm.SOMA05.value = total05;
+  document.frm.SOMA06.value = total06;
+  document.frm.SOMA07.value = total07;
+  document.frm.SOMA08.value = total08;
+  document.frm.SOMA09.value = total09;
+  document.frm.SOMA10.value = total10;
+  document.frm.SOMA11.value = total11;
+  document.frm.SOMA12.value = total12;
+  document.frm.SOMA13.value = total13;
+  document.frm.SOMA14.value = total14;
+  document.frm.SOMA15.value = total15;
 }
 
 // *********************************************************
@@ -265,7 +339,10 @@ function carregaNE01() {
   document.frm.JG0601.value = document.frm.NE01.value;
   document.frm.JG0701.value = document.frm.NE01.value;
   document.frm.JG0801.value = document.frm.NE01.value;
-
+  document.frm.JG0901.value = document.frm.NE01.value;
+  document.frm.JG1001.value = document.frm.NE01.value;
+  document.frm.JG1101.value = document.frm.NE01.value;
+  document.frm.JG1201.value = document.frm.NE01.value;
 }
 
 // *********************************************************
@@ -278,8 +355,12 @@ function carregaNE02() {
   document.frm.JG0402.value = document.frm.NE02.value;
   document.frm.JG0502.value = document.frm.NE02.value;
   document.frm.JG0602.value = document.frm.NE02.value;
-  document.frm.JG0702.value = document.frm.NE02.value;    
-  document.frm.JG0802.value = document.frm.NE02.value;    
+  document.frm.JG0702.value = document.frm.NE02.value;
+  document.frm.JG0802.value = document.frm.NE02.value;
+  document.frm.JG0902.value = document.frm.NE02.value;
+  document.frm.JG1002.value = document.frm.NE02.value;
+  document.frm.JG1102.value = document.frm.NE02.value;
+  document.frm.JG1202.value = document.frm.NE02.value;
 }
 
 // *********************************************************
@@ -289,12 +370,15 @@ function carregaNE03() {
   document.frm.JG0103.value = document.frm.NE03.value;
   document.frm.JG0203.value = document.frm.NE03.value;
   document.frm.JG0303.value = document.frm.NE03.value;
-  document.frm.JG0403.value = document.frm.NE03.value;  
+  document.frm.JG0403.value = document.frm.NE03.value;
   document.frm.JG0503.value = document.frm.NE03.value;
-  document.frm.JG0603.value = document.frm.NE03.value;  
+  document.frm.JG0603.value = document.frm.NE03.value;
   document.frm.JG0703.value = document.frm.NE03.value;
   document.frm.JG0803.value = document.frm.NE03.value;
-
+  document.frm.JG0903.value = document.frm.NE03.value;
+  document.frm.JG1003.value = document.frm.NE03.value;
+  document.frm.JG1103.value = document.frm.NE03.value;
+  document.frm.JG1203.value = document.frm.NE03.value;
 }
 
 // *********************************************************
@@ -309,6 +393,10 @@ function carregaNE04() {
   document.frm.JG0604.value = document.frm.NE04.value;
   document.frm.JG0704.value = document.frm.NE04.value;
   document.frm.JG0804.value = document.frm.NE04.value;
+  document.frm.JG0904.value = document.frm.NE04.value;
+  document.frm.JG1004.value = document.frm.NE04.value;
+  document.frm.JG1104.value = document.frm.NE04.value;
+  document.frm.JG1204.value = document.frm.NE04.value;
 }
 
 // *********************************************************
@@ -323,6 +411,10 @@ function carregaNE05() {
   document.frm.JG0605.value = document.frm.NE05.value;
   document.frm.JG0705.value = document.frm.NE05.value;
   document.frm.JG0805.value = document.frm.NE05.value;
+  document.frm.JG0905.value = document.frm.NE05.value;
+  document.frm.JG1005.value = document.frm.NE05.value;
+  document.frm.JG1105.value = document.frm.NE05.value;
+  document.frm.JG1205.value = document.frm.NE05.value;
 }
 
 // *********************************************************
@@ -337,6 +429,10 @@ function carregaNE06() {
   document.frm.JG0606.value = document.frm.NE06.value;
   document.frm.JG0706.value = document.frm.NE06.value;
   document.frm.JG0806.value = document.frm.NE06.value;
+  document.frm.JG0906.value = document.frm.NE06.value;
+  document.frm.JG1006.value = document.frm.NE06.value;
+  document.frm.JG1106.value = document.frm.NE06.value;
+  document.frm.JG1206.value = document.frm.NE06.value;
 }
 
 // *********************************************************
@@ -351,6 +447,8 @@ function carregaNE07() {
   document.frm.JG0607.value = document.frm.NE07.value;
   document.frm.JG0707.value = document.frm.NE07.value;
   document.frm.JG0807.value = document.frm.NE07.value;
+  document.frm.JG1109.value = document.frm.NE07.value;
+  document.frm.JG1208.value = document.frm.NE07.value;
 }
 
 // *********************************************************
@@ -365,6 +463,8 @@ function carregaNE08() {
   document.frm.JG0608.value = document.frm.NE08.value;
   document.frm.JG0708.value = document.frm.NE08.value;
   document.frm.JG0808.value = document.frm.NE08.value;
+  document.frm.JG0907.value = document.frm.NE08.value;
+  document.frm.JG1209.value = document.frm.NE08.value;
 }
 
 // *********************************************************
@@ -379,7 +479,8 @@ function carregaNE09() {
   document.frm.JG0609.value = document.frm.NE09.value;
   document.frm.JG0709.value = document.frm.NE09.value;
   document.frm.JG0809.value = document.frm.NE09.value;
-
+  document.frm.JG0908.value = document.frm.NE09.value;
+  document.frm.JG1007.value = document.frm.NE09.value;
 }
 
 // *********************************************************
@@ -393,7 +494,9 @@ function carregaNE10() {
   document.frm.JG0510.value = document.frm.NE10.value;
   document.frm.JG0610.value = document.frm.NE10.value;
   document.frm.JG0710.value = document.frm.NE10.value;
-  document.frm.JG0810.value = document.frm.NE10.value;
+  document.frm.JG0909.value = document.frm.NE10.value;
+  document.frm.JG1008.value = document.frm.NE10.value;
+  document.frm.JG1107.value = document.frm.NE10.value;
 }
 
 // *********************************************************
@@ -407,7 +510,9 @@ function carregaNE11() {
   document.frm.JG0511.value = document.frm.NE11.value;
   document.frm.JG0611.value = document.frm.NE11.value;
   document.frm.JG0711.value = document.frm.NE11.value;
-  document.frm.JG0811.value = document.frm.NE11.value;
+  document.frm.JG1009.value = document.frm.NE11.value;
+  document.frm.JG1108.value = document.frm.NE11.value;
+  document.frm.JG1207.value = document.frm.NE11.value;
 }
 
 // *********************************************************
@@ -421,7 +526,9 @@ function carregaNE12() {
   document.frm.JG0512.value = document.frm.NE12.value;
   document.frm.JG0612.value = document.frm.NE12.value;
   document.frm.JG0712.value = document.frm.NE12.value;
-  document.frm.JG0812.value = document.frm.NE12.value;
+  document.frm.JG0810.value = document.frm.NE12.value;
+  document.frm.JG1112.value = document.frm.NE12.value;
+  document.frm.JG1211.value = document.frm.NE12.value;
 }
 
 // *********************************************************
@@ -429,7 +536,9 @@ function carregaNE12() {
 // *********************************************************
 function carregaNE13() {
   document.frm.JG0113.value = document.frm.NE13.value;
-
+  document.frm.JG0811.value = document.frm.NE13.value;
+  document.frm.JG0910.value = document.frm.NE13.value;
+  document.frm.JG1212.value = document.frm.NE13.value;
 }
 
 // *********************************************************
@@ -437,7 +546,9 @@ function carregaNE13() {
 // *********************************************************
 function carregaNE14() {
   document.frm.JG0114.value = document.frm.NE14.value;
-
+  document.frm.JG0812.value = document.frm.NE14.value;
+  document.frm.JG0911.value = document.frm.NE14.value;
+  document.frm.JG1010.value = document.frm.NE14.value;
 }
 
 // *********************************************************
@@ -445,8 +556,9 @@ function carregaNE14() {
 // *********************************************************
 function carregaNE15() {
   document.frm.JG0115.value = document.frm.NE15.value;
-
-  
+  document.frm.JG0912.value = document.frm.NE15.value;
+  document.frm.JG1011.value = document.frm.NE15.value;
+  document.frm.JG1110.value = document.frm.NE15.value;
 }
 
 // *********************************************************
@@ -454,8 +566,11 @@ function carregaNE15() {
 // *********************************************************
 function carregaNE16() {
   document.frm.JG0213.value = document.frm.NE16.value;
-  document.frm.JG0715.value = document.frm.NE16.value;
-  document.frm.JG0814.value = document.frm.NE16.value;
+  document.frm.JG0615.value = document.frm.NE16.value;
+  document.frm.JG0714.value = document.frm.NE16.value;
+  document.frm.JG1012.value = document.frm.NE16.value;
+  document.frm.JG1111.value = document.frm.NE16.value;
+  document.frm.JG1210.value = document.frm.NE16.value;
 }
 
 // *********************************************************
@@ -464,8 +579,10 @@ function carregaNE16() {
 function carregaNE17() {
   document.frm.JG0214.value = document.frm.NE17.value;
   document.frm.JG0413.value = document.frm.NE17.value;
-  document.frm.JG0815.value = document.frm.NE17.value;
-
+  document.frm.JG0715.value = document.frm.NE17.value;
+  document.frm.JG0813.value = document.frm.NE17.value;
+  document.frm.JG1115.value = document.frm.NE17.value;
+  document.frm.JG1214.value = document.frm.NE17.value;
 }
 
 // *********************************************************
@@ -475,7 +592,9 @@ function carregaNE18() {
   document.frm.JG0215.value = document.frm.NE18.value;
   document.frm.JG0414.value = document.frm.NE18.value;
   document.frm.JG0513.value = document.frm.NE18.value;
-
+  document.frm.JG0814.value = document.frm.NE18.value;
+  document.frm.JG0913.value = document.frm.NE18.value;
+  document.frm.JG1215.value = document.frm.NE18.value;
 }
 
 // *********************************************************
@@ -485,7 +604,9 @@ function carregaNE19() {
   document.frm.JG0313.value = document.frm.NE19.value;
   document.frm.JG0415.value = document.frm.NE19.value;
   document.frm.JG0514.value = document.frm.NE19.value;
-  document.frm.JG0613.value = document.frm.NE19.value;
+  document.frm.JG0815.value = document.frm.NE19.value;
+  document.frm.JG0914.value = document.frm.NE19.value;
+  document.frm.JG1013.value = document.frm.NE19.value;
 }
 
 // *********************************************************
@@ -494,9 +615,10 @@ function carregaNE19() {
 function carregaNE20() {
   document.frm.JG0314.value = document.frm.NE20.value;
   document.frm.JG0515.value = document.frm.NE20.value;
-  document.frm.JG0614.value = document.frm.NE20.value;
-  document.frm.JG0713.value = document.frm.NE20.value;
-
+  document.frm.JG0613.value = document.frm.NE20.value;
+  document.frm.JG0915.value = document.frm.NE20.value;
+  document.frm.JG1014.value = document.frm.NE20.value;
+  document.frm.JG1113.value = document.frm.NE20.value;
 }
 
 // *********************************************************
@@ -504,10 +626,11 @@ function carregaNE20() {
 // *********************************************************
 function carregaNE21() {
   document.frm.JG0315.value = document.frm.NE21.value;
-  document.frm.JG0615.value = document.frm.NE21.value;
-  document.frm.JG0714.value = document.frm.NE21.value;
-  document.frm.JG0813.value = document.frm.NE21.value;
-
+  document.frm.JG0614.value = document.frm.NE21.value;
+  document.frm.JG0713.value = document.frm.NE21.value;
+  document.frm.JG1015.value = document.frm.NE21.value;
+  document.frm.JG1114.value = document.frm.NE21.value;
+  document.frm.JG1213.value = document.frm.NE21.value;
 }
 
 // *********************************************************
@@ -911,18 +1034,113 @@ function ordenarArray() {
     document.frm.JG0915.value,
   ]; // OK
 
-    var jogosArray10 = [document.frm.JG1001.value, document.frm.JG1002.value, document.frm.JG1003.value, document.frm.JG1004.value, document.frm.JG1005.value, document.frm.JG1006.value, document.frm.JG1007.value, document.frm.JG1008.value, document.frm.JG1009.value, document.frm.JG1010.value, document.frm.JG1011.value, document.frm.JG1012.value, document.frm.JG1013.value, document.frm.JG1014.value, document.frm.JG1015.value];     // OK 
+  var jogosArray10 = [
+    document.frm.JG1001.value,
+    document.frm.JG1002.value,
+    document.frm.JG1003.value,
+    document.frm.JG1004.value,
+    document.frm.JG1005.value,
+    document.frm.JG1006.value,
+    document.frm.JG1007.value,
+    document.frm.JG1008.value,
+    document.frm.JG1009.value,
+    document.frm.JG1010.value,
+    document.frm.JG1011.value,
+    document.frm.JG1012.value,
+    document.frm.JG1013.value,
+    document.frm.JG1014.value,
+    document.frm.JG1015.value,
+  ]; // OK
 
-    var jogosArray11 = [document.frm.JG1101.value, document.frm.JG1102.value, document.frm.JG1103.value, document.frm.JG1104.value, document.frm.JG1105.value, document.frm.JG1106.value, document.frm.JG1107.value, document.frm.JG1108.value, document.frm.JG1109.value, document.frm.JG1110.value, document.frm.JG1111.value, document.frm.JG1112.value, document.frm.JG1113.value, document.frm.JG1114.value, document.frm.JG1115.value];     // OK 
+  var jogosArray11 = [
+    document.frm.JG1101.value,
+    document.frm.JG1102.value,
+    document.frm.JG1103.value,
+    document.frm.JG1104.value,
+    document.frm.JG1105.value,
+    document.frm.JG1106.value,
+    document.frm.JG1107.value,
+    document.frm.JG1108.value,
+    document.frm.JG1109.value,
+    document.frm.JG1110.value,
+    document.frm.JG1111.value,
+    document.frm.JG1112.value,
+    document.frm.JG1113.value,
+    document.frm.JG1114.value,
+    document.frm.JG1115.value,
+  ]; // OK
 
-    var jogosArray12 = [document.frm.JG1201.value, document.frm.JG1202.value, document.frm.JG1203.value, document.frm.JG1204.value, document.frm.JG1205.value, document.frm.JG1206.value, document.frm.JG1207.value, document.frm.JG1208.value, document.frm.JG1209.value, document.frm.JG1210.value, document.frm.JG1211.value, document.frm.JG1212.value, document.frm.JG1213.value, document.frm.JG1214.value, document.frm.JG1215.value];     // OK 				
+  var jogosArray12 = [
+    document.frm.JG1201.value,
+    document.frm.JG1202.value,
+    document.frm.JG1203.value,
+    document.frm.JG1204.value,
+    document.frm.JG1205.value,
+    document.frm.JG1206.value,
+    document.frm.JG1207.value,
+    document.frm.JG1208.value,
+    document.frm.JG1209.value,
+    document.frm.JG1210.value,
+    document.frm.JG1211.value,
+    document.frm.JG1212.value,
+    document.frm.JG1213.value,
+    document.frm.JG1214.value,
+    document.frm.JG1215.value,
+  ]; // OK
 
-    var jogosArray13 = [document.frm.JG1301.value, document.frm.JG1302.value, document.frm.JG1303.value, document.frm.JG1304.value, document.frm.JG1305.value, document.frm.JG1306.value, document.frm.JG1307.value, document.frm.JG1308.value, document.frm.JG1309.value, document.frm.JG1310.value, document.frm.JG1311.value, document.frm.JG1312.value, document.frm.JG1313.value, document.frm.JG1314.value, document.frm.JG1315.value];     // OK 				
+  var jogosArray13 = [
+    document.frm.JG1301.value,
+    document.frm.JG1302.value,
+    document.frm.JG1303.value,
+    document.frm.JG1304.value,
+    document.frm.JG1305.value,
+    document.frm.JG1306.value,
+    document.frm.JG1307.value,
+    document.frm.JG1308.value,
+    document.frm.JG1309.value,
+    document.frm.JG1310.value,
+    document.frm.JG1311.value,
+    document.frm.JG1312.value,
+    document.frm.JG1313.value,
+    document.frm.JG1314.value,
+    document.frm.JG1315.value,
+  ]; // OK
 
-    var jogosArray14 = [document.frm.JG1401.value, document.frm.JG1402.value, document.frm.JG1403.value, document.frm.JG1404.value, document.frm.JG1405.value, document.frm.JG1406.value, document.frm.JG1407.value, document.frm.JG1408.value, document.frm.JG1409.value, document.frm.JG1410.value, document.frm.JG1411.value, document.frm.JG1412.value, document.frm.JG1413.value, document.frm.JG1414.value, document.frm.JG1415.value];     // OK 				
+  var jogosArray14 = [
+    document.frm.JG1401.value,
+    document.frm.JG1402.value,
+    document.frm.JG1403.value,
+    document.frm.JG1404.value,
+    document.frm.JG1405.value,
+    document.frm.JG1406.value,
+    document.frm.JG1407.value,
+    document.frm.JG1408.value,
+    document.frm.JG1409.value,
+    document.frm.JG1410.value,
+    document.frm.JG1411.value,
+    document.frm.JG1412.value,
+    document.frm.JG1413.value,
+    document.frm.JG1414.value,
+    document.frm.JG1415.value,
+  ]; // OK
 
-    var jogosArray15 = [document.frm.JG1501.value, document.frm.JG1502.value, document.frm.JG1503.value, document.frm.JG1504.value, document.frm.JG1505.value, document.frm.JG1506.value, document.frm.JG1507.value, document.frm.JG1508.value, document.frm.JG1509.value, document.frm.JG1510.value, document.frm.JG1511.value, document.frm.JG1512.value, document.frm.JG1513.value, document.frm.JG1514.value, document.frm.JG1515.value];     // OK 				
-
+  var jogosArray15 = [
+    document.frm.JG1501.value,
+    document.frm.JG1502.value,
+    document.frm.JG1503.value,
+    document.frm.JG1504.value,
+    document.frm.JG1505.value,
+    document.frm.JG1506.value,
+    document.frm.JG1507.value,
+    document.frm.JG1508.value,
+    document.frm.JG1509.value,
+    document.frm.JG1510.value,
+    document.frm.JG1511.value,
+    document.frm.JG1512.value,
+    document.frm.JG1513.value,
+    document.frm.JG1514.value,
+    document.frm.JG1515.value,
+  ]; // OK
 
   var soma1 = [document.frm.SOMA01.value];
   var soma2 = [document.frm.SOMA02.value];
@@ -933,13 +1151,12 @@ function ordenarArray() {
   var somar7 = [document.frm.SOMA07.value];
   var somar8 = [document.frm.SOMA08.value];
   var somar9 = [document.frm.SOMA09.value];
-  var somar10 = [document.frm.SOMA10.value]					
-  var somar11 = [document.frm.SOMA11.value]																		
-  var somar12 = [document.frm.SOMA12.value]	
-  var somar13 = [document.frm.SOMA13.value]																		
-  var somar14 = [document.frm.SOMA14.value]	
-  var somar15 = [document.frm.SOMA15.value]																		
-
+  var somar10 = [document.frm.SOMA10.value];
+  var somar11 = [document.frm.SOMA11.value];
+  var somar12 = [document.frm.SOMA12.value];
+  var somar13 = [document.frm.SOMA13.value];
+  var somar14 = [document.frm.SOMA14.value];
+  var somar15 = [document.frm.SOMA15.value];
 
   escreveJogos =
     " - JOGOS EM ORDEM CRESCENTE + " +
@@ -979,38 +1196,30 @@ function ordenarArray() {
     jogosArray09.sort() +
     " = " +
     somar9 +
-
-
     "\n Jogo 10: " +
     jogosArray10.sort() +
     " = " +
     somar10 +
-
     "\n Jogo 11: " +
     jogosArray11.sort() +
     " = " +
     somar11 +
-
     "\n Jogo 12: " +
     jogosArray12.sort() +
     " = " +
     somar12 +
-
     "\n Jogo 13: " +
     jogosArray13.sort() +
     " = " +
     somar13 +
-
     "\n Jogo 14: " +
     jogosArray14.sort() +
     " = " +
     somar14 +
-
     "\n Jogo 15: " +
     jogosArray15.sort() +
     " = " +
     somar15 +
-
     "\n\n" +
     "Recomendação: Recomendo que sejam feitos jogos com a SOMA entre 180 e 200(90%)";
 
@@ -1100,6 +1309,3 @@ function tamanhoTexto(textoNum, nomeComp) {
     }
   }
 }
-
-
-
