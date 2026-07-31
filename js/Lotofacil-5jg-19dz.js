@@ -1,4 +1,4 @@
-		let escreveJogos;
+		var escreveJogos;
 
 	    function mostraJogos(x) {
 							
