@@ -93,7 +93,7 @@ function soma() {
     parseFloat(0 + document.frm.JG0302.value) +
     parseFloat(0 + document.frm.JG0303.value) +
     parseFloat(0 + document.frm.JG0304.value) +
-    parseFloat(0 + document.frm.JG0302.value) +
+    parseFloat(0 + document.frm.JG0305.value) +
     parseFloat(0 + document.frm.JG0306.value) +
     parseFloat(0 + document.frm.JG0307.value) +
     parseFloat(0 + document.frm.JG0308.value) +
@@ -1138,15 +1138,15 @@ function ordenarArray() {
 
  
 
-  let soma1 = [document.frm.SOMA01.value];
-  let soma2 = [document.frm.SOMA02.value];
-  let soma3 = [document.frm.SOMA03.value];
-  let soma4 = [document.frm.SOMA04.value];
-  let soma5 = [document.frm.SOMA05.value];
-  let somar6 = [document.frm.SOMA06.value];
-  let somar7 = [document.frm.SOMA07.value];
-  let somar8 = [document.frm.SOMA08.value];
-  let somar9 = [document.frm.SOMA09.value];
+  let somar01 = [document.frm.SOMA01.value];
+  let somar02 = [document.frm.SOMA02.value];
+  let somar03 = [document.frm.SOMA03.value];
+  let somar04 = [document.frm.SOMA04.value];
+  let somar05 = [document.frm.SOMA05.value];
+  let somar06 = [document.frm.SOMA06.value];
+  let somar07 = [document.frm.SOMA07.value];
+  let somar08 = [document.frm.SOMA08.value];
+  let somar09 = [document.frm.SOMA09.value];
   let somar10 = [document.frm.SOMA10.value];
   let somar11 = [document.frm.SOMA11.value];
   let somar12 = [document.frm.SOMA12.value];
@@ -1158,39 +1158,39 @@ function ordenarArray() {
     "\n\n Jogo 01: " +
     jogosArray01.sort() +
     " = " +
-    soma1 +
+    somar01 +
     "\n Jogo 02: " +
     jogosArray02.sort() +
     " = " +
-    soma2 +
+    somar02 +
     "\n Jogo 03: " +
     jogosArray03.sort() +
     " = " +
-    soma3 +
+    somar03 +
     "\n Jogo 04: " +
     jogosArray04.sort() +
     " = " +
-    soma4 +
+    somar04 +
     "\n Jogo 05: " +
     jogosArray05.sort() +
     " = " +
-    soma5 +
+    somar05 +
     "\n Jogo 06: " +
     jogosArray06.sort() +
     " = " +
-    somar6 +
+    somar06 +
     "\n Jogo 07: " +
     jogosArray07.sort() +
     " = " +
-    somar7 +
+    somar07 +
     "\n Jogo 08: " +
     jogosArray08.sort() +
     " = " +
-    somar8 +
+    somar08 +
     "\n Jogo 09: " +
     jogosArray09.sort() +
     " = " +
-    somar9 +
+    somar09 +
     "\n Jogo 10: " +
     jogosArray10.sort() +
     " = " +
