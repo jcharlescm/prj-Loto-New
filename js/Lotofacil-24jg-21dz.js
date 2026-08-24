@@ -104,7 +104,7 @@ function soma() {
     parseFloat(0 + document.frm.JG0302.value) +
     parseFloat(0 + document.frm.JG0303.value) +
     parseFloat(0 + document.frm.JG0304.value) +
-    parseFloat(0 + document.frm.JG0302.value) +
+    parseFloat(0 + document.frm.JG0305.value) +
     parseFloat(0 + document.frm.JG0306.value) +
     parseFloat(0 + document.frm.JG0307.value) +
     parseFloat(0 + document.frm.JG0308.value) +
