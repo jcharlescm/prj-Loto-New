@@ -1,0 +1,2801 @@
+
+<form name="frm">
+  <center>
+    <table border="2" bgcolor="#87CEEB">
+      <tr>
+        <td colspan="21" align="center">
+          <b> SISTEMA DIA DE SORTE - 21 NÚMEROS - 21 COMBINAÇÕES(JOGOS) </b>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="21">
+          <hr size="3" color="black" />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="7">
+          <center>
+            <b>MÊS:</b> <br />
+            <select name="TIPO">
+              <option value="0">Escolha um Mês</option>
+              <option value="1">JANEIRO</option>
+              <option value="2">FEVEREIRO</option>
+              <option value="3">MARÇO</option>
+              <option value="4">ABRIL</option>
+              <option value="5">MAIO</option>
+              <option value="6">JUNHO</option>
+              <option value="7">JULHO</option>
+              <option value="8">AGOSTO</option>
+              <option value="9">SETEMBRO</option>
+              <option value="10">OUTUBRO</option>
+              <option value="11">NOVEMBRO</option>
+              <option value="12">DEZEMBRO</option>
+            </select>
+          </center>
+        </td>
+        <td colspan="7" align="center">
+          <center>
+            <b>CONCURSO N. : </b> <br />
+            &nbsp;
+            <input type="text" size="15" maxlength="15" name="CONCNR" />
+          </center>
+        </td>
+        <td colspan="7" align="center">
+          <center>
+            <b>DATA DO CONCURSO : </b> <br />
+            <input type="text" size="15" maxlength="25" name="DTCONC" />
+          </center>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="21">
+          <hr size="3" color="red" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <b>01º</b>
+        </td>
+        <td align="center">
+          <b>02º</b>
+        </td>
+        <td align="center">
+          <b>03º</b>
+        </td>
+        <td align="center">
+          <b>04º</b>
+        </td>
+        <td align="center">
+          <b>05º</b>
+        </td>
+        <td align="center">
+          <b>06º</b>
+        </td>
+        <td align="center">
+          <b>07º</b>
+        </td>
+        <td align="center">
+          <b>08º</b>
+        </td>
+        <td align="center">
+          <b>09º</b>
+        </td>
+        <td align="center">
+          <b>10º</b>
+        </td>
+        <td align="center">
+          <b>11º</b>
+        </td>
+        <td align="center">
+          <b>12º</b>
+        </td>
+        <td align="center">
+          <b>13º</b>
+        </td>
+        <td align="center">
+          <b>14º</b>
+        </td>
+        <td align="center">
+          <b>15º</b>
+        </td>
+        <td align="center">
+          <b>16º</b>
+        </td>
+        <td align="center">
+          <b>17º</b>
+        </td>
+        <td align="center">
+          <b>18º</b>
+        </td>
+        <td align="center">
+          <b>19º</b>
+        </td>
+        <td align="center">
+          <b>20º</b>
+        </td>
+        <td align="center">
+          <b>21º</b>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="NE01"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE01();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE02"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE02();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE03"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE03();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE04"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE04();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE05"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE05();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE06"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE06();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE07"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE07();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE08"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE08();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE09"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE09();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE10"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE10();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE11"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE11();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE12"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE12();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE13"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE13();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE14"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE14();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE15"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE15();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE16"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE16();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE17"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE17();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE18"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE18();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE19"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE19();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE20"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE20();soma();numero_escolhido(this.value);"
+          />
+        </td>
+        <td align="center">
+          <input
+            type="text"
+            size="3"
+            maxlength="2"
+            name="NE21"
+            class="imput-mostrar"
+            onblur="tamanhoTexto(this.value, this.name);carregaNE21();soma();numero_escolhido(this.value);"
+          />
+        </td>
+      </tr>
+    </table>
+
+    <br />
+
+    <table>
+      <tr>
+        <td colspan="21">
+          &nbsp;&nbsp;
+          <input
+            type="button"
+            name="nr01"
+            value="01"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr02"
+            value="02"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr03"
+            value="03"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr04"
+            value="04"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr05"
+            value="05"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr06"
+            value="06"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr07"
+            value="07"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr08"
+            value="08"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr09"
+            value="09"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr10"
+            value="10"
+            class="imput-nr"
+          />&nbsp;&nbsp;
+        </td>
+      </tr>
+      <tr>
+        <td>
+          &nbsp;&nbsp;
+          <input
+            type="button"
+            name="nr11"
+            value="11"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr12"
+            value="12"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr13"
+            value="13"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr14"
+            value="14"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr15"
+            value="15"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr16"
+            value="16"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr17"
+            value="17"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr18"
+            value="18"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr19"
+            value="19"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr20"
+            value="20"
+            class="imput-nr"
+          />&nbsp;&nbsp;
+        </td>
+      </tr>
+      <tr>
+        <td>
+          &nbsp;&nbsp;
+          <input
+            type="button"
+            name="nr21"
+            value="21"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr22"
+            value="22"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr23"
+            value="23"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr24"
+            value="24"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr25"
+            value="25"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr26"
+            value="26"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr27"
+            value="27"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr28"
+            value="28"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr29"
+            value="29"
+            class="imput-nr"
+          />&nbsp;
+          <input
+            type="button"
+            name="nr30"
+            value="30"
+            class="imput-nr"
+          />&nbsp;&nbsp;
+        </td>
+      </tr>
+      <tr>
+        <td>
+          &nbsp;&nbsp;
+          <input
+            type="button"
+            name="nr31"
+            value="31"
+            class="imput-nr"
+          />&nbsp;
+        </td>
+      </tr>
+    </table>
+    <br /> 
+
+    <table border="2" bgcolor="#87CEEB">
+      <tr>
+        <td>&nbsp;</td>
+        <td align="center">
+          <b>1º nr </b>
+        </td>
+        <td align="center">
+          <b>2º nr </b>
+        </td>
+        <td align="center">
+          <b>3º nr </b>
+        </td>
+        <td align="center">
+          <b>4º nr </b>
+        </td>
+        <td align="center">
+          <b>5º nr </b>
+        </td>
+        <td align="center">
+          <b>6º nr </b>
+        </td>
+        <td align="center">
+          <b>7º nr </b>
+        </td>
+        <td align="center" style="background-color: orange">
+          <b>SOMA</b>
+        </td>
+        <td align="center" style="background-color: CornflowerBlue">
+          <b>MÊS</b>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <b> Jogo 01 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG11"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG12"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG13"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG14"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG15"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG16"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG17"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA01"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes1">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <b> Jogo 02 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG21"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG22"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG23"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG24"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG25"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG26"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG27"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA02"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes2">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <b> Jogo 03 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG31"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG32"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG33"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG34"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG35"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG36"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG37"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA03"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes3">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <b> Jogo 04 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG41"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG42"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG43"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG44"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG45"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG46"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG47"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA04"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes4">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <b> Jogo 05 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG51"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG52"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG53"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG54"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG55"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG56"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG57"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA05"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes5">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <b> Jogo 06 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG61"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG62"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG63"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG64"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG65"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG66"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG67"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA06"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes6">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <b> Jogo 07 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG71"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG72"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG73"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG74"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG75"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG76"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG77"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA07"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes7">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <b> Jogo 08 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG81"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG82"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG83"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG84"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG85"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG86"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG87"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA08"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes8">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <b> Jogo 09 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG91"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG92"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG93"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG94"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG95"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG96"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG97"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA09"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes9">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <b> Jogo 10 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG101"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG102"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG103"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG104"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG105"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG106"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG107"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA10"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes10">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <b> Jogo 11 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG111"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG112"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG113"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG114"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG115"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG116"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG117"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA11"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes11">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <b> Jogo 12 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG121"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG122"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG123"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG124"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG125"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG126"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG127"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA12"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes12">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <b> Jogo 13 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG131"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG132"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG133"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG134"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG135"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG136"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG137"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA13"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes13">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <b> Jogo 14 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG141"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG142"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG143"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG144"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG145"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG146"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG147"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA14"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes14">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+      
+      <tr>
+        <td align="center">
+          <b> Jogo 15 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG151"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG152"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG153"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG154"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG155"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG156"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG157"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA15"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes15">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      
+      <tr>
+        <td align="center">
+          <b> Jogo 16 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG161"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG162"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG163"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG164"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG165"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG166"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG167"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA16"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes16">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      
+      <tr>
+        <td align="center">
+          <b> Jogo 17 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG171"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG172"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG173"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG174"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG175"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG176"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG177"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA17"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes17">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      
+      <tr>
+        <td align="center">
+          <b> Jogo 18 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG181"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG182"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG183"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG184"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG185"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG186"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG187"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA18"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes18">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      
+      <tr>
+        <td align="center">
+          <b> Jogo 19 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG191"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG192"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG193"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG194"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG195"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG196"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG197"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA19"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes19">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      
+      <tr>
+        <td align="center">
+          <b> Jogo 20
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG201"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG202"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG203"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG204"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG205"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG206"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG207"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA20"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes20">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      
+      <tr>
+        <td align="center">
+          <b> Jogo 21 </b>
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG211"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG212"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG213"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG214"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG215"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG216"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="JG217"
+            class="imput-mostrar"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            size="1"
+            maxlength="2"
+            name="SOMA21"
+            style="
+              font-size: 25px;
+              font-weight: bold;
+              width: 50px;
+              background-color: orange;
+            "
+            value="0"
+          />
+        </td>
+        <td bgcolor="CornflowerBlue">
+          <select name="mes21">
+            <option value="0">Escolha Mês</option>
+            <option value="1">JANEIRO</option>
+            <option value="2">FEVEREIRO</option>
+            <option value="3">MARÇO</option>
+            <option value="4">ABRIL</option>
+            <option value="5">MAIO</option>
+            <option value="6">JUNHO</option>
+            <option value="7">JULHO</option>
+            <option value="8">AGOSTO</option>
+            <option value="9">SETEMBRO</option>
+            <option value="10">OUTUBRO</option>
+            <option value="11">NOVEMBRO</option>
+            <option value="12">DEZEMBRO</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>&nbsp;</td>
+        <td align="center">
+          <b>1º nr </b>
+        </td>
+        <td align="center">
+          <b>2º nr </b>
+        </td>
+        <td align="center">
+          <b>3º nr </b>
+        </td>
+        <td align="center">
+          <b>4º nr </b>
+        </td>
+        <td align="center">
+          <b>5º nr </b>
+        </td>
+        <td align="center">
+          <b>6º nr </b>
+        </td>
+        <td align="center">
+          <b>7º nr </b>
+        </td>
+        <td align="center" style="background-color: orange">
+          <b>SOMA</b>
+        </td>
+        <td align="center" style="background-color: CornflowerBlue">
+          <b>MÊS</b>
+        </td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td>
+          <b
+            >OBS.: O JOGO DEVE ESTÁ BALANCEADO, NA MINHA VISÃO(JOSÉ
+            CHARLES).
+          </b>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b style="color: MidnightBlue"
+            >DIA DE SORTE = O NÚMERO BALANCEADO É O 98, JÁ QUE 7 * 14 = 98.
+          </b>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b
+            >UMA MÉDIA DE +30 OU -30, QUE DÁ 60 DE INTERVALO É UMA BOA
+            SOMA.</b
+          >
+        </td>
+      </tr>
+      <tr>
+        <td><b>MÉTODO DESENVOLVIDO POR : GAIL HOWARD</b></td>
+      </tr>
+      <tr>
+        <td><b>PROGRAMA DESENVOVIDO POR : JOSÉ CHARLES</b></td>
+      </tr>
+    </table>
+
+    <br />
+
+    <table>
+      <tr>
+        <td align="center">
+          <input
+            id="myBtn"
+            type="button"
+            name="ordenar"
+            value=" - Ordenar Jogos + "
+            style="
+              background-color: green;
+              font-size: 25px;
+              border-radius: 10px;
+            "
+            onclick="ordenarArray()"
+          />&nbsp;
+        </td>
+      </tr>
+    </table>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal" style="background-color: #FFD700"> 
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times; </span>
+        <p id="ordem"></p>
+      </div>
+    </div>
+  </center>
+</form>
+
+  
