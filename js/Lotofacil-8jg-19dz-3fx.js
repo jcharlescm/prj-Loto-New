@@ -47,7 +47,6 @@ function soma() {
   var total06;
   var total07;
   var total08;
-  var total09;
 
   total01 =
     parseFloat(0 + document.frm.JG0101.value) +
@@ -185,23 +184,6 @@ function soma() {
     parseFloat(0 + document.frm.JG0814.value) +
     parseFloat(0 + document.frm.JG0815.value);
 
-  total09 =
-    parseFloat(0 + document.frm.JG0901.value) +
-    parseFloat(0 + document.frm.JG0902.value) +
-    parseFloat(0 + document.frm.JG0903.value) +
-    parseFloat(0 + document.frm.JG0904.value) +
-    parseFloat(0 + document.frm.JG0905.value) +
-    parseFloat(0 + document.frm.JG0906.value) +
-    parseFloat(0 + document.frm.JG0907.value) +
-    parseFloat(0 + document.frm.JG0908.value) +
-    parseFloat(0 + document.frm.JG0909.value) +
-    parseFloat(0 + document.frm.JG0910.value) +
-    parseFloat(0 + document.frm.JG0911.value) +
-    parseFloat(0 + document.frm.JG0912.value) +
-    parseFloat(0 + document.frm.JG0913.value) +
-    parseFloat(0 + document.frm.JG0914.value) +
-    parseFloat(0 + document.frm.JG0915.value);
-
   document.frm.SOMA01.value = total01;
   document.frm.SOMA02.value = total02;
   document.frm.SOMA03.value = total03;
@@ -210,7 +192,6 @@ function soma() {
   document.frm.SOMA06.value = total06;
   document.frm.SOMA07.value = total07;
   document.frm.SOMA08.value = total08;
-  document.frm.SOMA09.value = total09;
 }
 
 // *********************************************************
