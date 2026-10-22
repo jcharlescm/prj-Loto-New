@@ -806,9 +806,9 @@ function ordenarArray() {
   mostraJogos(escreveJogos);
 }
 
-// *********************************************************
+// ********************************************************
 // Se o texto tiver 1 carater concatena com 0 antes
-// *********************************************************
+// ********************************************************
 function tamanhoTexto(textoNum, nomeComp) {
   if (textoNum.length == 1) {
     if (nomeComp == "NE01") {
